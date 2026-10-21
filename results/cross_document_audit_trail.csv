@@ -1,0 +1,987 @@
+record_key,question_id,embedding_model,generator_llm,generator_provider,latency_seconds,faithfulness,context_recall,answer_correctness,question,ground_truth,generated_answer,retrieved_context_count,document_key,document_title,document_domain
+MiniLM||LLM1_Qwen||Q1_contribution,Q1_contribution,MiniLM,LLM1_Qwen,groq,2.758,92.5,25.0,35.4,What is the main contribution of the paper on early detection of Parkinson's disease using machine learning?,"The main contribution is the comparative evaluation of machine learning techniques (Logistic Regression, Random Forest, SVM, and KNN) for early, non-invasive detection of Parkinson's disease from vocal/speech phonation measurements. The paper investigates three distinct approaches: full 22-attribute baseline training, PCA-based feature reduction to five selected attributes (MDVP, Shimmer, Jitter, PPE, and RPDE), and dataset balancing via minority class upsampling.","Based on the provided context passages, the main contribution of the paper is the focus on the **early detection of Parkinson’s disease (PD) through audio recordings of Patients with Parkinson’s (PWP) using Machine Learning (ML) techniques**.
+
+The text explicitly states: ""This paper focuses on early detection through audio recordings of PWP using ML techniques."" It further notes that this approach is described as ""novel"" in the final sentence of Passage 3. The study aims to address the challenges faced by PWP, such as mobility issues and speech difficulties, which make physical visits for treatment and monitoring difficult, by utilizing audio-based ML methods for early identification.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+MiniLM||LLM2_GPT_OSS||Q1_contribution,Q1_contribution,MiniLM,LLM2_GPT_OSS,groq,1.345,92.5,45.25,58.4,What is the main contribution of the paper on early detection of Parkinson's disease using machine learning?,"The main contribution is the comparative evaluation of machine learning techniques (Logistic Regression, Random Forest, SVM, and KNN) for early, non-invasive detection of Parkinson's disease from vocal/speech phonation measurements. The paper investigates three distinct approaches: full 22-attribute baseline training, PCA-based feature reduction to five selected attributes (MDVP, Shimmer, Jitter, PPE, and RPDE), and dataset balancing via minority class upsampling.","The paper’s primary contribution is the development of a machine‑learning approach that enables **early detection of Parkinson’s disease by analysing audio recordings of patients**. It proposes that acoustic features extracted from speech can be used to identify Parkinson’s disease at an early stage, thereby allowing timely therapeutic intervention.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+MiniLM||LLM3_Gemini||Q1_contribution,Q1_contribution,MiniLM,LLM3_Gemini,gemini,7.438,94.5,25.0,32.4,What is the main contribution of the paper on early detection of Parkinson's disease using machine learning?,"The main contribution is the comparative evaluation of machine learning techniques (Logistic Regression, Random Forest, SVM, and KNN) for early, non-invasive detection of Parkinson's disease from vocal/speech phonation measurements. The paper investigates three distinct approaches: full 22-attribute baseline training, PCA-based feature reduction to five selected attributes (MDVP, Shimmer, Jitter, PPE, and RPDE), and dataset balancing via minority class upsampling.","Based on the provided context, the main contribution of the paper is focusing on the early detection of Parkinson's disease (PD) through audio recordings of patients with Parkinson's (PWP) using machine learning (ML) techniques.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+BGE||LLM1_Qwen||Q1_contribution,Q1_contribution,BGE,LLM1_Qwen,groq,1.675,96.5,78.25,82.4,What is the main contribution of the paper on early detection of Parkinson's disease using machine learning?,"The main contribution is the comparative evaluation of machine learning techniques (Logistic Regression, Random Forest, SVM, and KNN) for early, non-invasive detection of Parkinson's disease from vocal/speech phonation measurements. The paper investigates three distinct approaches: full 22-attribute baseline training, PCA-based feature reduction to five selected attributes (MDVP, Shimmer, Jitter, PPE, and RPDE), and dataset balancing via minority class upsampling.","Based on the provided context, the main contribution of the paper is the exploration of specific machine learning models to classify Parkinson’s patient audio data for early detection via telemedicine. Specifically, the research aims to evaluate **KNN (K-nearest neighbor)**, **logistic regression**, **random forest regression**, and **SVM (Support Vector Machine)** models.
+
+The study utilizes audio data collected from the **PPMI** and **UCI** datasets. The preliminary findings indicate that the **K nearest neighbor model** is the best-performing model, achieving an **accuracy of 91.83%** and a **sensitivity of 0.95**. This approach aims to address the mobility and speech difficulties faced by Parkinson’s patients by facilitating remote monitoring and detection.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+BGE||LLM2_GPT_OSS||Q1_contribution,Q1_contribution,BGE,LLM2_GPT_OSS,groq,1.17,94.5,62.5,78.65,What is the main contribution of the paper on early detection of Parkinson's disease using machine learning?,"The main contribution is the comparative evaluation of machine learning techniques (Logistic Regression, Random Forest, SVM, and KNN) for early, non-invasive detection of Parkinson's disease from vocal/speech phonation measurements. The paper investigates three distinct approaches: full 22-attribute baseline training, PCA-based feature reduction to five selected attributes (MDVP, Shimmer, Jitter, PPE, and RPDE), and dataset balancing via minority class upsampling.","The paper’s primary contribution is the development and evaluation of a machine‑learning framework for the early detection of Parkinson’s disease (PD) from voice recordings.  
+- It collects audio data from the PPMI and UCI Parkinson’s datasets and applies four classification algorithms: K‑Nearest Neighbour (KNN), logistic regression, random‑forest regression, and support‑vector machine (SVM).  
+- Preliminary results show that the KNN model outperforms the others, achieving an accuracy of **91.83 %** and a sensitivity of **0.95**.  
+
+Thus, the study demonstrates that a KNN‑based approach can reliably classify PD patients from acoustic features, providing a promising tool for tele‑medicine‑based early diagnosis.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+BGE||LLM3_Gemini||Q1_contribution,Q1_contribution,BGE,LLM3_Gemini,gemini,6.2,96.5,78.25,82.4,What is the main contribution of the paper on early detection of Parkinson's disease using machine learning?,"The main contribution is the comparative evaluation of machine learning techniques (Logistic Regression, Random Forest, SVM, and KNN) for early, non-invasive detection of Parkinson's disease from vocal/speech phonation measurements. The paper investigates three distinct approaches: full 22-attribute baseline training, PCA-based feature reduction to five selected attributes (MDVP, Shimmer, Jitter, PPE, and RPDE), and dataset balancing via minority class upsampling.","Based on the provided context, the main contribution of the paper is to contribute to the advancement of the detection of Parkinson’s disease (PD) through telemedicine by focusing on early detection using machine learning (ML) techniques on audio recordings/voice data of Parkinson's patients (PWP) (collected from PPMI and UCI). Specifically, the research explores KNN, logistic regression, random forest regression, and SVM models to classify Parkinson's patient audio data, with preliminary findings showing that the K-nearest neighbor model is the best performing model, achieving an accuracy of 91.83% and a sensitivity of 0.95.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+Gemini-Emb||LLM1_Qwen||Q1_contribution,Q1_contribution,Gemini-Emb,LLM1_Qwen,groq,1.06,96.5,65.25,72.4,What is the main contribution of the paper on early detection of Parkinson's disease using machine learning?,"The main contribution is the comparative evaluation of machine learning techniques (Logistic Regression, Random Forest, SVM, and KNN) for early, non-invasive detection of Parkinson's disease from vocal/speech phonation measurements. The paper investigates three distinct approaches: full 22-attribute baseline training, PCA-based feature reduction to five selected attributes (MDVP, Shimmer, Jitter, PPE, and RPDE), and dataset balancing via minority class upsampling.","Based on the provided context passages, the main contribution of the paper is the proposal of a **novel, non-invasive remote detection technique** for the early stages of Parkinson’s Disease (PD) using **audio recordings** as a biomarker.
+
+Specifically, the paper contributes the following:
+
+1.  **Methodology**: It utilizes **Machine Learning (ML) techniques** in telemedicine to analyze **MDVP (Melodic Disturbance of Voice Production) audio data**. This approach addresses the mobility issues faced by Parkinson’s patients (PWP) who are unable to travel for physical health check-ups.
+2.  **Algorithmic Performance**: The study compares four ML models—**Support Vector Machine (SVM)**, **Random Forest**, **K-Nearest Neighbors (KNN)**, and **Logistic Regression**—trained on **22 attributes** of MDVP audio data from **30 PWP and healthy people**.
+3.  **Key Results**: The **Random Forest classifier** was identified as the ideal ML technique for PD detection, achieving a **detection accuracy of 91.83%** and a **sensitivity of 0.95**, outperforming the KNN, SVM, and Logistic Regression models.
+
+The paper aims to promote the use of ML in telemedicine to enable early, accurate, and remote detection of PD, thereby allowing patients to lead a normal life.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+Gemini-Emb||LLM2_GPT_OSS||Q1_contribution,Q1_contribution,Gemini-Emb,LLM2_GPT_OSS,groq,0.951,96.5,85.25,82.4,What is the main contribution of the paper on early detection of Parkinson's disease using machine learning?,"The main contribution is the comparative evaluation of machine learning techniques (Logistic Regression, Random Forest, SVM, and KNN) for early, non-invasive detection of Parkinson's disease from vocal/speech phonation measurements. The paper investigates three distinct approaches: full 22-attribute baseline training, PCA-based feature reduction to five selected attributes (MDVP, Shimmer, Jitter, PPE, and RPDE), and dataset balancing via minority class upsampling.","The paper’s main contribution is the demonstration that a **remote, non‑invasive early‑detection system for Parkinson’s disease can be built from simple audio recordings**.  
+Using the MDVP audio dataset (30 Parkinson’s patients and healthy controls), the authors trained four standard machine‑learning models (SVM, Random Forest, K‑NN, Logistic Regression). They found that the **Random Forest classifier achieved the best performance, with an accuracy of 91.83 % and a sensitivity of 0.95** (Passage 3). This result shows that audio features can serve as a reliable biomarker for early PD detection, enabling telemedicine‑based monitoring for patients who face mobility challenges (Passages 1–2).",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+Gemini-Emb||LLM3_Gemini||Q1_contribution,Q1_contribution,Gemini-Emb,LLM3_Gemini,gemini,11.163,98.5,75.0,82.4,What is the main contribution of the paper on early detection of Parkinson's disease using machine learning?,"The main contribution is the comparative evaluation of machine learning techniques (Logistic Regression, Random Forest, SVM, and KNN) for early, non-invasive detection of Parkinson's disease from vocal/speech phonation measurements. The paper investigates three distinct approaches: full 22-attribute baseline training, PCA-based feature reduction to five selected attributes (MDVP, Shimmer, Jitter, PPE, and RPDE), and dataset balancing via minority class upsampling.","Based on the provided context, the main contributions and details of the paper include:
+
+* **Focus and Approach:** The paper focuses on the early detection of Parkinson's Disease (PD) in people with Parkinson's (PWP) through audio recordings using machine learning techniques, emphasizing audio as a non-invasive biomarker. It highlights the use of this remote detection technique in telemedicine to help PWP who suffer from mobility issues and are unable to travel easily for health check-ups.
+* **Methodology and Data:** Research was carried out on MDVP audio data comprising a sample size of 30 PWP and healthy people during the training of four machine learning models: Random Forest, Support Vector Machine (SVM), K-Nearest Neighbors (KNN), and Logistic Regression. The models were trained on 22 attributes of the MDVP audio data.
+* **Results:** The Random Forest classifier was identified as the ideal machine learning technique for detecting PD, yielding an accuracy of 91.83% and a sensitivity of 0.95, outperforming the KNN, SVM, and Logistic Regression models.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+MiniLM||LLM1_Qwen||Q2_telemedicine_problem,Q2_telemedicine_problem,MiniLM,LLM1_Qwen,groq,0.693,94.5,88.25,86.4,"What problem in Parkinson's disease detection does this study address using voice data, and why is remote screening necessary?","The paper addresses the challenge of detecting Parkinson's disease at an early stage in a non-invasive and remote manner. Because patients with Parkinson's experience mobility challenges and speech difficulties, frequent physical visits to specialized clinical centers for disease monitoring can be a major hurdle. The study explores voice and audio measurements (MDVP vowel phonation) as viable digital biomarkers to enable remote screening and progress tracking through telemedicine.","Based on the provided context passages, the study addresses the problem that **audio data alone is not a sufficient biomarker for the classification of Parkinson’s disease (PD)**. To improve detection results, the authors propose using audio data in conjunction with **REM sleep data**.
+
+Remote screening (telemedicine) is necessary because patients with Parkinson’s disease (PWP) face **mobility challenges and speech difficulties**, which make physical visits for treatment and monitoring difficult. The study aims to encourage the use of mobile-recorded audio to classify PD through telemedicine to overcome these barriers.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+MiniLM||LLM2_GPT_OSS||Q2_telemedicine_problem,Q2_telemedicine_problem,MiniLM,LLM2_GPT_OSS,groq,1.36,94.5,88.25,86.4,"What problem in Parkinson's disease detection does this study address using voice data, and why is remote screening necessary?","The paper addresses the challenge of detecting Parkinson's disease at an early stage in a non-invasive and remote manner. Because patients with Parkinson's experience mobility challenges and speech difficulties, frequent physical visits to specialized clinical centers for disease monitoring can be a major hurdle. The study explores voice and audio measurements (MDVP vowel phonation) as viable digital biomarkers to enable remote screening and progress tracking through telemedicine.","The study tackles the **difficulty of reliably detecting Parkinson’s disease (PD) from voice recordings alone**.  As noted, “audio data alone is not a sufficient biomarker for classification of Parkinson’s disease” (Passage 1), so the authors combine voice with REM‑sleep data and apply machine‑learning classifiers to improve diagnostic accuracy.
+
+Remote screening is deemed necessary because **older PD patients often have mobility and speech impairments that make frequent in‑person visits burdensome**.  The paper states that “patients with Parkinson’s (PWP) face mobility challenges and speech difficulties, making physical visits for treatment and monitoring a …” (Passage 2).  By enabling mobile‑recorded audio to be analyzed remotely, telemedicine can provide accessible early detection for these patients.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+MiniLM||LLM3_Gemini||Q2_telemedicine_problem,Q2_telemedicine_problem,MiniLM,LLM3_Gemini,gemini,7.137,96.5,88.25,92.4,"What problem in Parkinson's disease detection does this study address using voice data, and why is remote screening necessary?","The paper addresses the challenge of detecting Parkinson's disease at an early stage in a non-invasive and remote manner. Because patients with Parkinson's experience mobility challenges and speech difficulties, frequent physical visits to specialized clinical centers for disease monitoring can be a major hurdle. The study explores voice and audio measurements (MDVP vowel phonation) as viable digital biomarkers to enable remote screening and progress tracking through telemedicine.","Based on the provided context, the study addresses the classification and early detection of Parkinson's disease (PD) using audio data (voice data), noting that audio data alone is not a sufficient biomarker and proposing to use audio alongside REM sleep data to improve results. 
+
+Remote screening (telemedicine) is necessary because patients with Parkinson's (PWP) face mobility challenges and speech difficulties, which make physical visits for treatment and monitoring difficult.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+BGE||LLM1_Qwen||Q2_telemedicine_problem,Q2_telemedicine_problem,BGE,LLM1_Qwen,groq,0.706,96.5,82.4,78.65,"What problem in Parkinson's disease detection does this study address using voice data, and why is remote screening necessary?","The paper addresses the challenge of detecting Parkinson's disease at an early stage in a non-invasive and remote manner. Because patients with Parkinson's experience mobility challenges and speech difficulties, frequent physical visits to specialized clinical centers for disease monitoring can be a major hurdle. The study explores voice and audio measurements (MDVP vowel phonation) as viable digital biomarkers to enable remote screening and progress tracking through telemedicine.","Based on the provided context passages, the study addresses the problem of classifying the severity of Parkinson’s disease (PD) using speech data. The research specifically aims to develop a remote detection technique that is memory-efficient and faster than deep neural network learning models, utilizing machine learning algorithms such as K-Nearest Neighbors (KNN), logistic regression, random forest regression, and Support Vector Machines (SVM).
+
+Remote screening is necessary to provide a ""new lease of life to patients"" by enabling the use of telemedicine. The methodology relies on audio data that can be recorded on mobile phones, which facilitates advancements in telemedicine for PD. Additionally, the study notes that audio data alone is not a sufficient biomarker for classification, suggesting that remote screening using mobile-recorded audio (potentially combined with other data like REM sleep, as mentioned in Passage 3) is required to improve detection results and contribute to the advancement of PD detection through telemedicine.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+BGE||LLM2_GPT_OSS||Q2_telemedicine_problem,Q2_telemedicine_problem,BGE,LLM2_GPT_OSS,groq,1.514,96.5,82.4,88.25,"What problem in Parkinson's disease detection does this study address using voice data, and why is remote screening necessary?","The paper addresses the challenge of detecting Parkinson's disease at an early stage in a non-invasive and remote manner. Because patients with Parkinson's experience mobility challenges and speech difficulties, frequent physical visits to specialized clinical centers for disease monitoring can be a major hurdle. The study explores voice and audio measurements (MDVP vowel phonation) as viable digital biomarkers to enable remote screening and progress tracking through telemedicine.","The study tackles the challenge of **classifying the severity of Parkinson’s disease (PD) from voice recordings** that can be captured on a mobile phone.  By applying memory‑efficient machine‑learning models (K‑NN, logistic regression, random forest, SVM) to audio data, the authors aim to provide a rapid, low‑resource diagnostic tool that can be used outside of a traditional clinical setting.
+
+Remote screening is deemed necessary because it **enables telemedicine‑based assessment**—patients can record speech at home and have their data evaluated automatically, reducing the need for in‑person visits and making early detection and ongoing monitoring more accessible.  The authors note that “the proposed remote detection technique will provide a new lease of life to patients, as it classifies the severity of PD using speech data, that can be recorded on mobile phones” and that “we hope our promising results encourage advancements in telemedicine for PD.”",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+BGE||LLM3_Gemini||Q2_telemedicine_problem,Q2_telemedicine_problem,BGE,LLM3_Gemini,gemini,83.356,88.5,72.4,64.2,"What problem in Parkinson's disease detection does this study address using voice data, and why is remote screening necessary?","The paper addresses the challenge of detecting Parkinson's disease at an early stage in a non-invasive and remote manner. Because patients with Parkinson's experience mobility challenges and speech difficulties, frequent physical visits to specialized clinical centers for disease monitoring can be a major hurdle. The study explores voice and audio measurements (MDVP vowel phonation) as viable digital biomarkers to enable remote screening and progress tracking through telemedicine.","Based on the provided context, the study addresses the classification of the severity of Parkinson's disease (PD) and the detection of PD using patient audio/voice data that can be recorded on mobile phones. 
+
+Remote screening (telemedicine) is necessary because it provides a new lease of life to patients by offering memory-efficient and faster machine learning models compared to deep neural network learning models, thereby encouraging advancements in telemedicine for PD.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+Gemini-Emb||LLM1_Qwen||Q2_telemedicine_problem,Q2_telemedicine_problem,Gemini-Emb,LLM1_Qwen,groq,0.887,98.5,95.25,96.8,"What problem in Parkinson's disease detection does this study address using voice data, and why is remote screening necessary?","The paper addresses the challenge of detecting Parkinson's disease at an early stage in a non-invasive and remote manner. Because patients with Parkinson's experience mobility challenges and speech difficulties, frequent physical visits to specialized clinical centers for disease monitoring can be a major hurdle. The study explores voice and audio measurements (MDVP vowel phonation) as viable digital biomarkers to enable remote screening and progress tracking through telemedicine.","Based on the provided context, this study addresses the problem of **early detection of Parkinson’s disease (PD) at stage 0** using machine learning techniques applied to voice data. The study specifically utilizes **MDVP audio data from 30 patients** to detect the disease in its early stages.
+
+Remote screening is necessary for the following reasons:
+1.  **Accessibility and Mobility:** Patients with Parkinson’s disease (PWP) face mobility challenges and speech difficulties, which make physical visits for treatment and monitoring a hurdle.
+2.  **Telemedicine Capability:** Vocal impairment is easy to measure and falls under the category of telemedicine. Patients can record audio using phones and perform simple tests (such as sustained phonation or running speech tests) at home without needing to travel physically to a doctor.
+3.  **Demographic Necessity:** The rise of an aging population globally emphasizes the need to detect PD early, remotely, and accurately.
+4.  **Early Symptom Prevalence:** 90% of PWP display signs of vocal cord injuries as a symptom in stage 0, making voice a viable early indicator.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+Gemini-Emb||LLM2_GPT_OSS||Q2_telemedicine_problem,Q2_telemedicine_problem,Gemini-Emb,LLM2_GPT_OSS,groq,1.557,96.5,92.75,94.2,"What problem in Parkinson's disease detection does this study address using voice data, and why is remote screening necessary?","The paper addresses the challenge of detecting Parkinson's disease at an early stage in a non-invasive and remote manner. Because patients with Parkinson's experience mobility challenges and speech difficulties, frequent physical visits to specialized clinical centers for disease monitoring can be a major hurdle. The study explores voice and audio measurements (MDVP vowel phonation) as viable digital biomarkers to enable remote screening and progress tracking through telemedicine.","**Problem addressed by the study**
+
+The study focuses on the **early detection of Parkinson’s disease (PD) at stage 0** by analysing voice data.  
+- 90 % of patients with Parkinson’s (PWP) show signs of vocal‑cord injury already in stage 0【Passage 1】.  
+- Voice‑modulation symptoms such as dysphonia and dysarthria can be captured through simple sustained‑phonation or running‑speech tests, which are used for diagnosis at this earliest stage【Passage 2】.  
+- The research uses the MDVP audio dataset of 30 recordings to train machine‑learning models for this purpose【Passage 3】.
+
+**Why remote screening is necessary**
+
+- Telemedicine (remote medicine) allows patients to **record audio using their phones at home** instead of traveling to a clinic【Passage 1】.  
+- Early, accurate detection is essential for timely treatment, especially given the **growing aging population worldwide**【Passage 3】.  
+- Remote screening therefore provides a practical, accessible way to monitor vocal impairment and diagnose PD early, enabling tailored therapies and potentially slowing disease progression.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+Gemini-Emb||LLM3_Gemini||Q2_telemedicine_problem,Q2_telemedicine_problem,Gemini-Emb,LLM3_Gemini,gemini,1.906,98.5,95.25,96.8,"What problem in Parkinson's disease detection does this study address using voice data, and why is remote screening necessary?","The paper addresses the challenge of detecting Parkinson's disease at an early stage in a non-invasive and remote manner. Because patients with Parkinson's experience mobility challenges and speech difficulties, frequent physical visits to specialized clinical centers for disease monitoring can be a major hurdle. The study explores voice and audio measurements (MDVP vowel phonation) as viable digital biomarkers to enable remote screening and progress tracking through telemedicine.","Based on the provided context, the study addresses the problem of detecting Parkinson's disease (PD) in its early stages—specifically at stage 0, where 90% of Patients with Parkinson's (PWP) display signs of vocal cord injuries (such as dysphonia and dysarthria) using voice data (such as sustained phonation or running speech tests). 
+
+Remote screening is necessary because PD patients experience mobility challenges and speech difficulties, which make physical visits for treatment, monitoring, and doctor appointments a hurdle. Remote medicine/telemedicine allows patients to avoid traveling physically to a doctor by recording audio using phones and performing a simple test at home. Furthermore, early detection enables patients to lead a normal life, and the rise of an aging population worldwide emphasizes the need to detect PD early, remotely, and accurately.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+MiniLM||LLM1_Qwen||Q3_algorithms_diff,Q3_algorithms_diff,MiniLM,LLM1_Qwen,groq,0.569,96.5,45.25,52.3,Which machine learning algorithms are evaluated in the Parkinson's disease study and how do their fundamental mechanisms differ?,"The paper evaluates four machine learning algorithms: Logistic Regression, Random Forest, Support Vector Machine (SVM), and K-Nearest Neighbors (KNN). Logistic Regression models categorical outcomes using a logistic sigmoid probability curve. Random Forest builds an ensemble of multiple decision trees and determines class assignment via majority voting. SVM constructs optimal hyperplanes using kernel transformations to separate non-linearly separable classes. KNN is a non-parametric, instance-based classifier that categorizes samples based on similarity distance.","Based on the provided context passages, the study evaluates the following four machine learning algorithms:
+
+1.  **K-Nearest Neighbors (KNN)**
+2.  **Logistic Regression**
+3.  **Random Forest Regression**
+4.  **Support Vector Machine (SVM)**
+
+The text explicitly states that the research aims to ""explore KNN, logistic regression, random forest regression and SVM models to classify Parkinson’s patient audio data.""
+
+Regarding the fundamental mechanisms of these algorithms, **the provided context does not contain sufficient information.** The passages only list the names of the models and report the performance metrics for the KNN model (accuracy of 91.83% and sensitivity of 0.95), but they do not describe the underlying mathematical or operational mechanisms of any of the four algorithms.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+MiniLM||LLM2_GPT_OSS||Q3_algorithms_diff,Q3_algorithms_diff,MiniLM,LLM2_GPT_OSS,groq,1.433,92.5,85.0,94.2,Which machine learning algorithms are evaluated in the Parkinson's disease study and how do their fundamental mechanisms differ?,"The paper evaluates four machine learning algorithms: Logistic Regression, Random Forest, Support Vector Machine (SVM), and K-Nearest Neighbors (KNN). Logistic Regression models categorical outcomes using a logistic sigmoid probability curve. Random Forest builds an ensemble of multiple decision trees and determines class assignment via majority voting. SVM constructs optimal hyperplanes using kernel transformations to separate non-linearly separable classes. KNN is a non-parametric, instance-based classifier that categorizes samples based on similarity distance.","The study evaluates four supervised learning algorithms for classifying Parkinson’s disease (PD) from voice recordings:
+
+| Algorithm | Core Mechanism | Key Characteristics |
+|-----------|----------------|---------------------|
+| **K‑Nearest Neighbour (KNN)** | Instance‑based learning: a test sample is classified by majority vote of its *k* closest training samples in feature space. | No explicit training phase; relies on distance metrics (e.g., Euclidean). Sensitive to the choice of *k* and feature scaling. |
+| **Logistic Regression** | Linear probabilistic model: estimates the probability of class membership using a logistic (sigmoid) function applied to a linear combination of input features. | Produces interpretable coefficients; assumes linear decision boundary; requires feature scaling for optimal performance. |
+| **Random Forest Regression** | Ensemble of decision trees: multiple trees are built on bootstrapped subsets of data and features; predictions are aggregated (e.g., majority vote for classification). | Captures non‑linear relationships; reduces over‑fitting through bagging; provides feature importance measures. |
+| **Support Vector Machine (SVM)** | Margin‑based classifier: finds the hyperplane that maximizes the margin between classes, optionally using kernel functions to map data into higher‑dimensional space. | Effective in high‑dimensional spaces; robust to over‑fitting; kernel choice (linear, RBF, etc.) determines flexibility. |
+
+**Reference from the study**  
+The authors explicitly state that they “explore KNN, logistic regression, random forest regression and SVM models to classify Parkinson’s patient audio data” (Passage 3). They also report that the KNN model achieved the highest performance with an accuracy of 91.83 % and a sensitivity of 0.95 (Passage 3).
+
+Thus, the study compares four distinct algorithmic families—instance‑based (KNN), linear probabilistic (logistic regression), ensemble tree‑based (random forest), and margin‑based kernel methods (SVM)—each employing a different fundamental learning principle.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+MiniLM||LLM3_Gemini||Q3_algorithms_diff,Q3_algorithms_diff,MiniLM,LLM3_Gemini,gemini,9.406,100.0,25.0,30.0,Which machine learning algorithms are evaluated in the Parkinson's disease study and how do their fundamental mechanisms differ?,"The paper evaluates four machine learning algorithms: Logistic Regression, Random Forest, Support Vector Machine (SVM), and K-Nearest Neighbors (KNN). Logistic Regression models categorical outcomes using a logistic sigmoid probability curve. Random Forest builds an ensemble of multiple decision trees and determines class assignment via majority voting. SVM constructs optimal hyperplanes using kernel transformations to separate non-linearly separable classes. KNN is a non-parametric, instance-based classifier that categorizes samples based on similarity distance.","Based on the provided context, the study evaluates the following machine learning algorithms to classify Parkinson's patient audio data: K Nearest Neighbor (KNN), logistic regression, random forest regression, and Support Vector Machine (SVM) models. 
+
+Regarding how their fundamental mechanisms differ, the provided context does not contain sufficient information to answer that part of the question.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+BGE||LLM1_Qwen||Q3_algorithms_diff,Q3_algorithms_diff,BGE,LLM1_Qwen,groq,0.784,96.5,45.25,52.3,Which machine learning algorithms are evaluated in the Parkinson's disease study and how do their fundamental mechanisms differ?,"The paper evaluates four machine learning algorithms: Logistic Regression, Random Forest, Support Vector Machine (SVM), and K-Nearest Neighbors (KNN). Logistic Regression models categorical outcomes using a logistic sigmoid probability curve. Random Forest builds an ensemble of multiple decision trees and determines class assignment via majority voting. SVM constructs optimal hyperplanes using kernel transformations to separate non-linearly separable classes. KNN is a non-parametric, instance-based classifier that categorizes samples based on similarity distance.","Based on the provided context passages, the study evaluates the following four machine learning algorithms:
+
+1.  **K-Nearest Neighbors (KNN)**
+2.  **Logistic Regression**
+3.  **Random Forest Regression**
+4.  **Support Vector Machine (SVM)**
+
+These models are applied to classify Parkinson’s patient audio data. The context explicitly states that the K-Nearest Neighbor (KNN) model was the best-performing model, achieving an accuracy of **91.83%** and a sensitivity of **0.95**.
+
+Regarding the fundamental mechanisms of these algorithms, **the provided context does not contain sufficient information** to describe how their mechanisms differ. The text lists the algorithms and reports the performance metrics for KNN but does not provide technical descriptions of the internal workings or theoretical distinctions between KNN, logistic regression, random forest regression, and SVM.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+BGE||LLM2_GPT_OSS||Q3_algorithms_diff,Q3_algorithms_diff,BGE,LLM2_GPT_OSS,groq,1.581,92.5,95.0,88.4,Which machine learning algorithms are evaluated in the Parkinson's disease study and how do their fundamental mechanisms differ?,"The paper evaluates four machine learning algorithms: Logistic Regression, Random Forest, Support Vector Machine (SVM), and K-Nearest Neighbors (KNN). Logistic Regression models categorical outcomes using a logistic sigmoid probability curve. Random Forest builds an ensemble of multiple decision trees and determines class assignment via majority voting. SVM constructs optimal hyperplanes using kernel transformations to separate non-linearly separable classes. KNN is a non-parametric, instance-based classifier that categorizes samples based on similarity distance.","The study described in the provided passages evaluates the following machine‑learning algorithms for classifying Parkinson’s disease (PD) from patient audio data:
+
+| Algorithm | Core Mechanism | Key Characteristics |
+|-----------|----------------|---------------------|
+| **K‑Nearest Neighbors (KNN)** | Instance‑based learning that classifies a new sample by majority vote among its *k* closest training samples in feature space. | No explicit training phase; relies on a distance metric (e.g., Euclidean) and the choice of *k*. |
+| **Logistic Regression** | Linear model that estimates the probability of the binary outcome (PD vs. non‑PD) using a logistic (sigmoid) function applied to a weighted sum of input features. | Produces probabilistic outputs; coefficients indicate feature importance; requires feature scaling for optimal performance. |
+| **Random Forest Regression** | Ensemble of decision trees built on bootstrapped subsets of the data; each tree votes on the outcome and the aggregate vote determines the final prediction. | Handles non‑linear relationships; reduces over‑fitting through averaging; provides feature‑importance measures. |
+| **Support Vector Machine (SVM)** | Margin‑based classifier that finds the hyperplane maximizing the distance (margin) between classes, optionally using kernel functions to map data into higher‑dimensional spaces. | Effective in high‑dimensional spaces; robust to over‑fitting; requires careful kernel and parameter selection. |
+
+**Fundamental differences**
+
+1. **Learning paradigm**  
+   - *KNN* is a lazy learner that defers computation to prediction time.  
+   - *Logistic regression* and *SVM* are parametric models that learn a decision boundary during training.  
+   - *Random forest* is an ensemble of non‑parametric decision trees, combining multiple weak learners into a strong one.
+
+2. **Decision rule**  
+   - *KNN* uses a simple majority vote among nearest neighbors.  
+   - *Logistic regression* outputs a probability via a sigmoid function and classifies based on a threshold.  
+   - *SVM* selects the hyperplane with the maximum margin; classification is based on the side of the hyperplane.  
+   - *Random forest* aggregates the discrete predictions of many trees (majority vote or average for regression).
+
+3. **Handling of non‑linearity**  
+   - *KNN* can capture complex patterns implicitly through distance calculations.  
+   - *Logistic regression* is inherently linear unless features are transformed.  
+   - *SVM* can model non‑linear boundaries using kernel tricks.  
+   - *Random forest* naturally models non‑linear interactions via tree splits.
+
+4. **Computational characteristics**  
+   - *KNN* requires storing the entire training set and computing distances at prediction time.  
+   - *Logistic regression* and *SVM* involve solving optimization problems during training.  
+   - *Random forest* requires training many trees, which can be parallelized but is more memory‑intensive than a single tree.
+
+These distinctions explain why the study found KNN to achieve the highest accuracy (91.83 %) and sensitivity (0.95) among the evaluated models【3†L3-L8】.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+BGE||LLM3_Gemini||Q3_algorithms_diff,Q3_algorithms_diff,BGE,LLM3_Gemini,gemini,8.666,100.0,25.0,30.0,Which machine learning algorithms are evaluated in the Parkinson's disease study and how do their fundamental mechanisms differ?,"The paper evaluates four machine learning algorithms: Logistic Regression, Random Forest, Support Vector Machine (SVM), and K-Nearest Neighbors (KNN). Logistic Regression models categorical outcomes using a logistic sigmoid probability curve. Random Forest builds an ensemble of multiple decision trees and determines class assignment via majority voting. SVM constructs optimal hyperplanes using kernel transformations to separate non-linearly separable classes. KNN is a non-parametric, instance-based classifier that categorizes samples based on similarity distance.","Based on the provided context, the research aims to explore the following machine learning algorithms to classify Parkinson's patient audio data:
+1. K-nearest neighbor (KNN)
+2. Logistic regression
+3. Random forest regression
+4. SVM (Support Vector Machine)
+
+Regarding how their fundamental mechanisms differ, the provided context does not contain sufficient information to answer this.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+Gemini-Emb||LLM1_Qwen||Q3_algorithms_diff,Q3_algorithms_diff,Gemini-Emb,LLM1_Qwen,groq,0.691,96.5,45.0,54.0,Which machine learning algorithms are evaluated in the Parkinson's disease study and how do their fundamental mechanisms differ?,"The paper evaluates four machine learning algorithms: Logistic Regression, Random Forest, Support Vector Machine (SVM), and K-Nearest Neighbors (KNN). Logistic Regression models categorical outcomes using a logistic sigmoid probability curve. Random Forest builds an ensemble of multiple decision trees and determines class assignment via majority voting. SVM constructs optimal hyperplanes using kernel transformations to separate non-linearly separable classes. KNN is a non-parametric, instance-based classifier that categorizes samples based on similarity distance.","Based on the provided context passages, the machine learning algorithms evaluated in the Parkinson's disease (PD) study are **Support Vector Machine (SVM)**, **Logistic Regression**, **Random Forest**, and **K-Nearest Neighbors (KNN)**.
+
+The passages explicitly state that these four models were trained and compared using MDVP audio data from the PPPMI and UCI databases (Passage 1, Passage 2). The study identified the **Random Forest** classifier as the ideal technique, reporting a detection accuracy of **91.83%** and a sensitivity of **0.95** (Passage 2).
+
+Regarding the fundamental mechanisms of these algorithms, **the provided context does not contain sufficient information.** The text lists the algorithms and their performance metrics but does not describe their underlying mathematical or computational mechanisms (e.g., how SVM constructs hyperplanes, how Random Forest builds decision trees, or how KNN calculates distance).",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+Gemini-Emb||LLM2_GPT_OSS||Q3_algorithms_diff,Q3_algorithms_diff,Gemini-Emb,LLM2_GPT_OSS,groq,1.91,88.5,92.75,94.2,Which machine learning algorithms are evaluated in the Parkinson's disease study and how do their fundamental mechanisms differ?,"The paper evaluates four machine learning algorithms: Logistic Regression, Random Forest, Support Vector Machine (SVM), and K-Nearest Neighbors (KNN). Logistic Regression models categorical outcomes using a logistic sigmoid probability curve. Random Forest builds an ensemble of multiple decision trees and determines class assignment via majority voting. SVM constructs optimal hyperplanes using kernel transformations to separate non-linearly separable classes. KNN is a non-parametric, instance-based classifier that categorizes samples based on similarity distance.","**Machine‑learning algorithms evaluated**
+
+| Algorithm | Key characteristics (fundamental mechanism) | Evidence from the passages |
+|-----------|----------------------------------------------|----------------------------|
+| **Support Vector Machine (SVM)** | Finds a hyper‑plane that maximally separates classes by using support vectors; can employ kernel functions to handle non‑linear boundaries. | “Train SVM, logistic regression, random forest and KNN models” (Passage 1). “Comparison of results of classification by Support Vector Machine (SVM)” (Passage 2). |
+| **Random Forest** | An ensemble of decision trees built on bootstrap samples; each tree votes for a class, and the majority vote is taken. It reduces over‑fitting and captures non‑linear interactions. | “Random Forest classifier” is highlighted as the ideal technique; “Random Forest classifier model has a detection accuracy of 91.83 % and sensitivity of 0.95” (Passage 2). |
+| **K‑Nearest Neighbors (KNN)** | Instance‑based learner that assigns a class to a new sample based on the majority label of its *k* closest training points in feature space. | “K‑Nearest Neighbors (KNN)” appears in the list of models trained (Passage 1) and in the comparison (Passage 2). |
+| **Logistic Regression** | A linear probabilistic model that estimates the log‑odds of the target class as a linear combination of input features, using the logistic (sigmoid) function. | Mentioned in the same lists as SVM, Random Forest, and KNN (Passages 1 and 2). |
+
+**How their fundamental mechanisms differ**
+
+1. **SVM** – A margin‑based classifier that constructs a decision boundary (hyper‑plane) by maximizing the distance to the nearest training samples (support vectors). It can use kernel tricks to map data into higher‑dimensional spaces for non‑linear separation.
+
+2. **Random Forest** – An ensemble method that builds many decision trees on random subsets of data and features (bagging + feature randomness). Each tree makes a prediction; the final class is the majority vote, providing robustness to over‑fitting and capturing complex feature interactions.
+
+3. **KNN** – A lazy, instance‑based learner that makes predictions solely based on the *k* nearest training points in the feature space, using a distance",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+Gemini-Emb||LLM3_Gemini||Q3_algorithms_diff,Q3_algorithms_diff,Gemini-Emb,LLM3_Gemini,gemini,10.508,94.5,75.0,45.0,Which machine learning algorithms are evaluated in the Parkinson's disease study and how do their fundamental mechanisms differ?,"The paper evaluates four machine learning algorithms: Logistic Regression, Random Forest, Support Vector Machine (SVM), and K-Nearest Neighbors (KNN). Logistic Regression models categorical outcomes using a logistic sigmoid probability curve. Random Forest builds an ensemble of multiple decision trees and determines class assignment via majority voting. SVM constructs optimal hyperplanes using kernel transformations to separate non-linearly separable classes. KNN is a non-parametric, instance-based classifier that categorizes samples based on similarity distance.","Based on the provided context, the machine learning algorithms evaluated in the Parkinson's disease (PD) study are:
+1. Support Vector Machine (SVM)
+2. Logistic Regression
+3. Random Forest
+4. K-Nearest Neighbors (KNN)
+
+*(Note: Passage 3 also mentions a custom deep learning model [DEEP] and a linear classification model implemented in other cited studies, but the primary study evaluating the four mentioned models identifies the Random Forest classifier as the ideal technique, achieving a detection accuracy of 91.83% and a sensitivity of 0.95 using MDVP audio data from 30 PWP and healthy people.)*
+
+Regarding how their fundamental mechanisms differ, **the provided context does not contain sufficient information** explaining the internal mechanics or algorithmic differences among SVM, logistic regression, random forest, and KNN.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+MiniLM||LLM1_Qwen||Q4_algorithms_pca_performance,Q4_algorithms_pca_performance,MiniLM,LLM1_Qwen,groq,1.666,94.5,50.0,45.8,"Which machine learning algorithms achieved the highest performance under the full 22-attribute set versus the PCA-reduced feature set, and what were their reported metrics?","On the complete 22-attribute baseline dataset (Approach 1), Random Forest achieved the highest accuracy of 91.83% with precision 0.95 and recall 0.86 (Table 2). When PCA reduced the feature set to five major attributes (MDVP, Shimmer, Jitter, PPE, RPDE) in Approach 2, Support Vector Machine (SVM) with a linear kernel achieved the best performance with an accuracy of 91.75%, precision of 1.0, and recall of 0.86 (Table 3).","Based on the provided context, the performance metrics for the full 22-attribute set are not explicitly detailed in the text, as Passage 1 only provides the confusion matrix counts (7 true negatives, 4 false negatives, 38 true positives, 0 false positives) without specifying which algorithm generated these results or providing comparative accuracy/precision metrics for the 22-attribute approach.
+
+However, for the **PCA-reduced feature set** (5 attributes: MDVP, Shimmer, Jitter, PPE, and RPDE), the **Support Vector Machine (SVM)** achieved the highest performance. The reported metrics for SVM in this approach are:
+*   **Accuracy:** 91.75%
+*   **Precision:** 1.0
+*   **Recall:** 0.86
+*   **ROC AUC curve:** 0.727
+
+In comparison, the other algorithms tested on the PCA-reduced set (Logistic Regression, Random Forest, and KNN) all achieved an accuracy of 83.67%. While Random Forest had a higher ROC AUC (0.818) and KNN had a higher ROC AUC (0.779) than SVM, SVM held the highest accuracy and perfect precision.
+
+The provided context does not contain sufficient information to determine which algorithm achieved the highest performance under the full 22-attribute set, as specific accuracy, precision, or ROC-AUC values for that specific configuration are not listed.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+MiniLM||LLM2_GPT_OSS||Q4_algorithms_pca_performance,Q4_algorithms_pca_performance,MiniLM,LLM2_GPT_OSS,groq,0.981,100.0,50.0,0.0,"Which machine learning algorithms achieved the highest performance under the full 22-attribute set versus the PCA-reduced feature set, and what were their reported metrics?","On the complete 22-attribute baseline dataset (Approach 1), Random Forest achieved the highest accuracy of 91.83% with precision 0.95 and recall 0.86 (Table 2). When PCA reduced the feature set to five major attributes (MDVP, Shimmer, Jitter, PPE, RPDE) in Approach 2, Support Vector Machine (SVM) with a linear kernel achieved the best performance with an accuracy of 91.75%, precision of 1.0, and recall of 0.86 (Table 3).",The provided context does not contain sufficient information.,3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+MiniLM||LLM3_Gemini||Q4_algorithms_pca_performance,Q4_algorithms_pca_performance,MiniLM,LLM3_Gemini,gemini,8.324,100.0,50.0,50.0,"Which machine learning algorithms achieved the highest performance under the full 22-attribute set versus the PCA-reduced feature set, and what were their reported metrics?","On the complete 22-attribute baseline dataset (Approach 1), Random Forest achieved the highest accuracy of 91.83% with precision 0.95 and recall 0.86 (Table 2). When PCA reduced the feature set to five major attributes (MDVP, Shimmer, Jitter, PPE, RPDE) in Approach 2, Support Vector Machine (SVM) with a linear kernel achieved the best performance with an accuracy of 91.75%, precision of 1.0, and recall of 0.86 (Table 3).","Based on the provided context, the models evaluated across the approaches include Logistic Regression, Random Forest, Support Vector Machine (SVM), and K-Nearest Neighbors (KNN). 
+
+For the **PCA-reduced feature set** (Approach 2, which reduced the 22 attributes down to 5 major attributes: MDVP, Shimmer, Jitter, PPE, and RPDE using Principal Component Analysis), the **Support Vector Machine (SVM)** achieved the highest performance with an **Accuracy of 91.75%**, a **Precision of 1.0**, a **Recall of 0.86**, and an **ROC AUC curve of 0.727**. 
+
+However, the provided context **does not contain sufficient information** regarding the specific numerical metrics (accuracies, precision, recall, or ROC AUC) for the models under the full 22-attribute set.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+BGE||LLM1_Qwen||Q4_algorithms_pca_performance,Q4_algorithms_pca_performance,BGE,LLM1_Qwen,groq,2.208,92.5,65.0,45.2,"Which machine learning algorithms achieved the highest performance under the full 22-attribute set versus the PCA-reduced feature set, and what were their reported metrics?","On the complete 22-attribute baseline dataset (Approach 1), Random Forest achieved the highest accuracy of 91.83% with precision 0.95 and recall 0.86 (Table 2). When PCA reduced the feature set to five major attributes (MDVP, Shimmer, Jitter, PPE, RPDE) in Approach 2, Support Vector Machine (SVM) with a linear kernel achieved the best performance with an accuracy of 91.75%, precision of 1.0, and recall of 0.86 (Table 3).","Based on the provided context, the performance metrics for the full 22-attribute set are not explicitly reported in the text. However, the context provides specific confusion matrix results for two different models (likely corresponding to the full set and the PCA-reduced set, though the text does not explicitly label the first passage as the ""full set"" result, it contrasts with the PCA results in Passage 3).
+
+**1. PCA-Reduced Feature Set (5 Attributes)**
+According to **Passage 3**, after applying Principal Component Analysis (PCA) to reduce 22 attributes to 5 major attributes (MDVP, Shimmer, Jitter, PPE, and RPDE), the **Support Vector Machine (SVM)** achieved the highest performance. The reported metrics for SVM in this scenario are:
+*   **Accuracy:** 91.75%
+*   **Precision:** 1.0
+*   **Recall:** 0.86
+*   **ROC AUC:** 0.727
+
+For comparison, the other models on the PCA-reduced set achieved:
+*   **Logistic Regression:** 83.67% Accuracy, 1.0 Precision, 0.83 Recall, 0.636 ROC AUC.
+*   **Random Forest:** 83.67% Accuracy, 1.0 Precision, 0.90 Recall, 0.818 ROC AUC.
+*   **KNN:** 83.67% Accuracy, 0.92 Precision, 0.90 Recall, 0.779 ROC AUC.
+
+**2. Full 22-Attribute Set**
+The provided context does not contain a table or explicit list of accuracy, precision, recall, or ROC AUC metrics for the full 22-attribute set. However, **Passage 1** describes a Support Vector classifier (SVM) with an L1-support and linear kernel, stating it is ""ideal for PCA data"" (which may be a textual inconsistency or referring to the general methodology) and provides a confusion matrix:
+*   **True Negatives (TN):** 5
+*   **False Negatives (FN):** 6
+*   **True Positives (TP):** 38
+*   **False Positives (FP):** 0
+
+From these confusion matrix values, the following metrics can be calculated, though they are not explicitly stated as ""reported metrics"" in the same format as Table 3:
+*   **Accuracy:** (TP + TN) / (TP + TN + FP + FN) = (38 + 5) / (38 + 5 + 0 + 6) = 43 / 49 ≈ **87.76%**
+*   **Precision:** TP / (TP + FP) = 38 / (38 + 0) = **1.0**
+*   **Recall:** TP / (TP + FN) = 38 / (38 + 6) = 38 / 44 ≈ **0.8636**
+
+**Passage 3** also mentions a different confusion matrix result: ""7 true negatives... 4 false negatives, 38 true positives... and 0 false positives."" This yields:
+*   **Accuracy:** (38 + 7) / (38 + 7 + 0 + 4) = 45 / 49 ≈ **91.84%**
+*   **Precision:** 38 / 38 = **1.0**
+*   **Recall:** 38 / (38 + 4) = 38 / 42 ≈ **0.9048**
+
+Since the text does not explicitly link the confusion matrix in Passage 1 or the second confusion matrix in Passage 3 to the ""full 22-attribute set"" versus the ""PCA set"" with the same clarity as Table 3, and Table 3 is explicitly labeled ""Results of Approach 2: 5 attributes after PCA,"" the only explicitly reported comparative metrics for the reduced set are in Table 3. The highest performing algorithm on the PCA-reduced set is **SVM** with **91.75% accuracy**. The context does not provide sufficient information to definitively state which algorithm achieved the highest performance on the *full* 22-attribute set using the same metric format (Accuracy/Precision/Recall/ROC AUC) as the PCA set, nor does it explicitly label the confusion matrices in Passages 1 and 3 as belonging to the full set.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+BGE||LLM2_GPT_OSS||Q4_algorithms_pca_performance,Q4_algorithms_pca_performance,BGE,LLM2_GPT_OSS,groq,2.106,42.5,55.25,18.4,"Which machine learning algorithms achieved the highest performance under the full 22-attribute set versus the PCA-reduced feature set, and what were their reported metrics?","On the complete 22-attribute baseline dataset (Approach 1), Random Forest achieved the highest accuracy of 91.83% with precision 0.95 and recall 0.86 (Table 2). When PCA reduced the feature set to five major attributes (MDVP, Shimmer, Jitter, PPE, RPDE) in Approach 2, Support Vector Machine (SVM) with a linear kernel achieved the best performance with an accuracy of 91.75%, precision of 1.0, and recall of 0.86 (Table 3).","We need to answer: Which machine learning algorithms achieved the highest performance under the full 22-attribute set versus the PCA-reduced feature set, and what were their reported metrics? We have context passages. Let's parse.
+
+Passage 1: Support Vector classifier with L1-support and linear kernel is ideal for PCA data, as it identifies ideal hyperplane in less time and greater accuracy. Confusion matrix: 5 TN, 6 FN, 38 TP, 0 FP. So SVM on PCA data? It says ""ideal for PCA data"". So maybe this is the PCA-reduced set. But we need metrics for full 22-attribute set. Passage 2: nent Analysis (PCA) to identify 5 most relevant features to model training, out of 22 attributes. Split dataset 75% training. Retrain SVM, logistic regression, random forest and KNN models. Compare classification results using confusion matrix, ROC-AUC curve and accuracy. So we have results for PCA-reduced set in Table 3. But we need metrics for full 22-attribute set. The passage 1 might refer to full set? It says ""Support Vector classifier with L1-support and linear kernel is ideal for PCA data"". That suggests it's for PCA data. But confusion matrix shows 5 TN, 6 FN, 38 TP, 0 FP. That is 5+6+38=49? Actually 5+6+38=49. So dataset size 49? Not sure.
+
+Passage 3: ""fies 7 true negatives (no PD), 4 false negatives, 38 true positives (PWP) and 0 false positives."" That seems similar but different numbers: 7 TN, 4 FN, 38 TP, 0 FP. So confusion matrix for maybe full set? It says ""Table 3 depicts results of approach 2, after application of PCA. It yields 5 major attributes - MDVP, Shimmer, Jitter, PPE and RPDE. Upon training and evaluating models on these 5 attributes, results are: Table 3. Results of Approach 2: 5 attributes after PCA Metric Logistic Regression Random Forest SVM KNN Accuracy 83.67% 83.67 % 91.75 % 83.67 % Precision 1.0 1.0 1.0 0.92 Recall 0.83 0.90 0.86 0.90 ROC AUC curve 0.636 0.818 0.727 0.779""
+
+So Table 3 is for PCA-reduced set. So we have metrics for SVM: Accuracy 91.75%, Precision 1.0, Recall 0.86, ROC AUC 0.727. For logistic regression: Accuracy 83.67%, Precision 1.0, Recall 0.83, ROC AUC 0.636. Random forest: Accuracy 83.67%, Precision 1.0, Recall 0.90, ROC AUC 0.818. KNN: Accuracy 83.67%, Precision 0.92, Recall 0.90, ROC AUC 0.779.
+
+Now we need metrics for full 22-attribute set. The passage 1 confusion matrix: 5 TN, 6 FN, 38 TP, 0 FP. That yields accuracy? Let's compute: total = 5+6+38=49. Accuracy = (TP+TN)/total = (38+5)/49 = 43/49 = 0.8776 ~ 87.76%. Precision = TP/(TP+FP) = 38/(38+0)=1.0. Recall = TP/(TP+FN) = 38/(38+6)=38/44=0.8636 ~ 86.36%. ROC AUC not given. But we need metrics for full set. But we also need to know which algorithm achieved highest performance under full set vs PCA set. The passage 1 only mentions SVM. So maybe SVM is the only algorithm evaluated on full set. But we need to compare highest performance. Under full set, SVM accuracy 87.76% (approx). Under PCA set, SVM accuracy 91.75%. So SVM had higher accuracy under PCA set. But the question: ""Which machine learning algorithms achieved the highest performance under the full 22-attribute set versus the PCA-reduced feature set, and what were their reported metrics?"" So we need to identify the algorithm(s) that achieved highest performance under each set. For full set, maybe SVM had highest accuracy? But we only have SVM metrics. So we can say SVM had highest performance under full set with accuracy 87.76% (approx), precision 1.0, recall 86.36%. Under PCA set, SVM had highest accuracy 91.75%, precision 1.0, recall 86%, ROC AUC 0.727. But we might also mention random forest had high ROC AUC 0.818 but lower accuracy. But the question: ""Which machine learning algorithms achieved the highest performance under the full 22-attribute set versus the PCA-reduced feature set, and what were their reported metrics?"" So we need to answer: Under full set, SVM had highest performance. Under PCA set, SVM had highest accuracy 91.75% etc. Provide metrics.
+
+But we need to cite specific metrics. Provide accuracy, precision, recall, ROC AUC. For full set, we only have confusion matrix. We can compute metrics. Provide approximate values. But we should be precise: accuracy 43/49 = 0.8776 -> 87.76%. Precision 1.0. Recall 38/",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+BGE||LLM3_Gemini||Q4_algorithms_pca_performance,Q4_algorithms_pca_performance,BGE,LLM3_Gemini,gemini,50.009,98.5,50.0,45.8,"Which machine learning algorithms achieved the highest performance under the full 22-attribute set versus the PCA-reduced feature set, and what were their reported metrics?","On the complete 22-attribute baseline dataset (Approach 1), Random Forest achieved the highest accuracy of 91.83% with precision 0.95 and recall 0.86 (Table 2). When PCA reduced the feature set to five major attributes (MDVP, Shimmer, Jitter, PPE, RPDE) in Approach 2, Support Vector Machine (SVM) with a linear kernel achieved the best performance with an accuracy of 91.75%, precision of 1.0, and recall of 0.86 (Table 3).","Based on the provided context, the text does not contain information regarding the performance metrics or evaluations of the machine learning algorithms under the full 22-attribute set. It only provides details and metrics for the PCA-reduced feature set (specifically Approach 2 using 5 attributes: MDVP, Shimmer, Jitter, PPE, and RPDE). 
+
+For the PCA-reduced feature set (5 attributes), the reported metrics are as follows:
+* **SVM:** Accuracy of 91.75%, Precision of 1.0, Recall of 0.86, and ROC AUC of 0.727.
+* **Logistic Regression:** Accuracy of 83.67%, Precision of 1.0, Recall of 0.83, and ROC AUC of 0.636.
+* **Random Forest:** Accuracy of 83.67%, Precision of 1.0, Recall of 0.90, and ROC AUC of 0.818.
+* **KNN:** Accuracy of 83.67%, Precision of 0.92, Recall of 0.90, and ROC AUC of 0.779.
+
+The provided context does not contain sufficient information to answer the question regarding the full 22-attribute set.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+Gemini-Emb||LLM1_Qwen||Q4_algorithms_pca_performance,Q4_algorithms_pca_performance,Gemini-Emb,LLM1_Qwen,groq,1.163,98.5,50.0,60.0,"Which machine learning algorithms achieved the highest performance under the full 22-attribute set versus the PCA-reduced feature set, and what were their reported metrics?","On the complete 22-attribute baseline dataset (Approach 1), Random Forest achieved the highest accuracy of 91.83% with precision 0.95 and recall 0.86 (Table 2). When PCA reduced the feature set to five major attributes (MDVP, Shimmer, Jitter, PPE, RPDE) in Approach 2, Support Vector Machine (SVM) with a linear kernel achieved the best performance with an accuracy of 91.75%, precision of 1.0, and recall of 0.86 (Table 3).","Based on the provided context, the specific performance metrics for the PCA-reduced feature set (5 attributes) are not reported. The text only provides detailed results for ""Approach 1,"" which utilizes the full 22-attribute set.
+
+**Performance under the full 22-attribute set (Approach 1):**
+According to Table 2, the **Random Forest** classifier achieved the highest performance among the tested models (Logistic Regression, Random Forest, SVM, and KNN). Its reported metrics were:
+*   **Accuracy:** 91.83%
+*   **Precision:** 0.95
+*   **Recall:** 0.86
+*   **ROC AUC curve:** 0.701
+
+For comparison, the other models under the 22-attribute set achieved the following:
+*   **SVM:** Accuracy 85.71%, Precision 1.0, Recall 0.84, ROC AUC 0.682
+*   **KNN:** Accuracy 85.71%, Precision 0.95, Recall 0.86, ROC AUC 0.701
+*   **Logistic Regression:** Accuracy 83.67%, Precision 1.0, Recall 0.83, ROC AUC 0.636
+
+**Performance under the PCA-reduced feature set (5 attributes):**
+The provided context does not contain sufficient information to answer this part of the question. While Passage 2 confirms that models were trained on a ""Dataset with 195 records and 5 attributes after Principal Component Analysis (PCA),"" no numerical metrics (accuracy, precision, recall, or ROC-AUC) for this specific approach are included in the text.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+Gemini-Emb||LLM2_GPT_OSS||Q4_algorithms_pca_performance,Q4_algorithms_pca_performance,Gemini-Emb,LLM2_GPT_OSS,groq,0.322,100.0,50.0,0.0,"Which machine learning algorithms achieved the highest performance under the full 22-attribute set versus the PCA-reduced feature set, and what were their reported metrics?","On the complete 22-attribute baseline dataset (Approach 1), Random Forest achieved the highest accuracy of 91.83% with precision 0.95 and recall 0.86 (Table 2). When PCA reduced the feature set to five major attributes (MDVP, Shimmer, Jitter, PPE, RPDE) in Approach 2, Support Vector Machine (SVM) with a linear kernel achieved the best performance with an accuracy of 91.75%, precision of 1.0, and recall of 0.86 (Table 3).",The provided context does not contain sufficient information.,3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+Gemini-Emb||LLM3_Gemini||Q4_algorithms_pca_performance,Q4_algorithms_pca_performance,Gemini-Emb,LLM3_Gemini,gemini,57.047,94.5,50.0,60.0,"Which machine learning algorithms achieved the highest performance under the full 22-attribute set versus the PCA-reduced feature set, and what were their reported metrics?","On the complete 22-attribute baseline dataset (Approach 1), Random Forest achieved the highest accuracy of 91.83% with precision 0.95 and recall 0.86 (Table 2). When PCA reduced the feature set to five major attributes (MDVP, Shimmer, Jitter, PPE, RPDE) in Approach 2, Support Vector Machine (SVM) with a linear kernel achieved the best performance with an accuracy of 91.75%, precision of 1.0, and recall of 0.86 (Table 3).","Based on the provided context, the models studied are Logistic Regression, Random Forest classifier, Support Vector classifier (SVM), and K-nearest neighbors (KNN) models. 
+
+For the full dataset (Approach 1: 22 attributes, with a total dataset of 195 records and 75% used for training), **Random Forest** achieved the highest accuracy. The reported metrics for Approach 1 are:
+
+* **Logistic Regression:** Accuracy = 83.67%, Precision = 1.0, Recall = 0.83, ROC-AUC = 0.636
+* **Random Forest:** Accuracy = 91.83%, Precision = 0.95, Recall = 0.86, ROC-AUC = 0.701
+* **SVM:** Accuracy = 85.71%, Precision = 1.0, Recall = 0.84, ROC-AUC = 0.682
+* **KNN:** Accuracy = 85.71%, Precision = 0.95, Recall = 0.86, ROC-AUC = 0.701
+
+Regarding the PCA-reduced feature set (which used Principal Component Analysis to identify the 5 most relevant features out of 22 attributes for model training, with 195 total records), the provided context **does not contain sufficient information** to report the specific metrics or identify which algorithm achieved the highest performance under that feature set.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+MiniLM||LLM1_Qwen||Q5_dataset_balancing_metrics,Q5_dataset_balancing_metrics,MiniLM,LLM1_Qwen,groq,1.351,98.5,85.25,92.4,"How does dataset balancing affect classifier performance, which algorithm performed best on the balanced dataset, and what evaluation metrics were reported?","The original dataset was imbalanced with 109 Parkinson's records and only 40 healthy records. The authors upsampled the minority healthy class to 109 records, creating a balanced dataset of 218 instances (Approach 3). On this balanced dataset, K-Nearest Neighbors (KNN) demonstrated the highest performance, achieving 91.83% accuracy, 0.95 precision, 0.95 recall, and an ROC-AUC of 0.883 (Table 4). The paper also utilizes confusion matrices, F1 score, and ROC curves to evaluate trade-offs between clinical sensitivity and specificity.","Based on the provided context passages, here is the answer to the question:
+
+**Effect of Dataset Balancing on Classifier Performance**
+The provided context does not contain sufficient information to explicitly quantify the *change* in performance caused by balancing, as it does not provide the specific accuracy, precision, or recall metrics for the baseline (imbalanced) dataset in a comparable table format. However, the text notes that balancing ensures ""equal weightage is given to PWP and non-Parkinson’s patients"" by training on equal numbers of records (109 records obtained after dataset balancing, as mentioned in Passage 2).
+
+**Best Performing Algorithm on the Balanced Dataset**
+According to **Table 4** in Passage 1, which depicts the results for Approach 3 (Balanced dataset), the **KNN** algorithm performed best. It achieved the highest values across all reported metrics:
+*   **Accuracy:** 91.83%
+*   **Precision:** 0.95
+*   **Recall:** 0.95
+
+For comparison, the other algorithms on the balanced dataset achieved the following:
+*   **Logistic Regression:** 85.71% Accuracy, 0.89 Precision, 0.92 Recall
+*   **Random Forest:** 85.71% Accuracy, 0.89 Precision, 0.92 Recall
+*   **SVM:** 81.63% Accuracy, 0.82 Precision, 0.94 Recall
+
+**Evaluation Metrics Reported**
+The specific numerical metrics reported in Table 4 for the balanced dataset are:
+1.  **Accuracy**
+2.  **Precision**
+3.  **Recall**
+
+Additionally, Passage 3 states that classification results were compared using:
+*   **Confusion matrix**
+*   **ROC-AUC curve**
+*   **Accuracy**
+
+Passage 1 also provides specific confusion matrix counts for the SVM classifier on the balanced dataset: 5 True Negatives (TN), 6 False Negatives (FN), 38 True Positives (TP), and 0 False Positives (FP).",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+MiniLM||LLM2_GPT_OSS||Q5_dataset_balancing_metrics,Q5_dataset_balancing_metrics,MiniLM,LLM2_GPT_OSS,groq,1.567,94.5,88.25,86.4,"How does dataset balancing affect classifier performance, which algorithm performed best on the balanced dataset, and what evaluation metrics were reported?","The original dataset was imbalanced with 109 Parkinson's records and only 40 healthy records. The authors upsampled the minority healthy class to 109 records, creating a balanced dataset of 218 instances (Approach 3). On this balanced dataset, K-Nearest Neighbors (KNN) demonstrated the highest performance, achieving 91.83% accuracy, 0.95 precision, 0.95 recall, and an ROC-AUC of 0.883 (Table 4). The paper also utilizes confusion matrices, F1 score, and ROC curves to evaluate trade-offs between clinical sensitivity and specificity.","**Effect of dataset balancing**
+
+Balancing the data (equal numbers of normal and Parkinson’s records) was shown to give each class the same weight during training.  In the balanced setting the classifiers achieved higher and more comparable performance than in the unbalanced case (the paper reports that the baseline, unbalanced training produced lower accuracy and higher mis‑classification rates, although the exact numbers are not given in the excerpts).  The balanced data therefore allowed the models to learn a more representative decision boundary and reduced the bias toward the majority class.
+
+**Best‑performing algorithm on the balanced dataset**
+
+On the balanced dataset (Approach 3) the **K‑Nearest Neighbours (KNN)** model achieved the highest performance:
+
+| Metric | KNN |
+|--------|-----|
+| Accuracy | **91.83 %** |
+| Precision | **0.95** |
+| Recall | **0.95** |
+
+KNN outperformed Logistic Regression, Random Forest and SVM, which all had accuracies of 85.71 % (LR & RF) and 81.63 % (SVM), with lower precision and recall values.
+
+**Evaluation metrics reported**
+
+The study reported the following metrics for each algorithm on the balanced dataset (Table 4):
+
+- **Accuracy** (percentage of correctly classified instances)  
+- **Precision** (positive‑predictive value)  
+- **Recall** (sensitivity / true‑positive rate)
+
+Additionally, the methodology section (Passage 3) mentions that confusion matrices and ROC‑AUC curves were used to compare classification results, but the numerical values reported in the table are Accuracy, Precision, and Recall.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+MiniLM||LLM3_Gemini||Q5_dataset_balancing_metrics,Q5_dataset_balancing_metrics,MiniLM,LLM3_Gemini,gemini,51.113,96.5,88.25,92.4,"How does dataset balancing affect classifier performance, which algorithm performed best on the balanced dataset, and what evaluation metrics were reported?","The original dataset was imbalanced with 109 Parkinson's records and only 40 healthy records. The authors upsampled the minority healthy class to 109 records, creating a balanced dataset of 218 instances (Approach 3). On this balanced dataset, K-Nearest Neighbors (KNN) demonstrated the highest performance, achieving 91.83% accuracy, 0.95 precision, 0.95 recall, and an ROC-AUC of 0.883 (Table 4). The paper also utilizes confusion matrices, F1 score, and ROC curves to evaluate trade-offs between clinical sensitivity and specificity.","Based on the provided context passages, dataset balancing ensures equal weightage is given to Persons with Parkinson's (PWP) and non-Parkinson's patients. 
+
+Among the models trained on the balanced dataset (Approach 3 using 109 records obtained after dataset balancing), **KNN** performed the best. 
+
+The evaluation metrics reported for the models on the balanced dataset are as follows:
+* **Logistic Regression:** Accuracy of 85.71%, Precision of 0.89, and Recall of 0.92.
+* **Random Forest:** Accuracy of 85.71%, Precision of 0.89, and Recall of 0.92.
+* **SVM:** Accuracy of 81.63%, Precision of 0.82, and Recall of 0.94 (additionally, SVM classifies 5 TN, 6 FN, 38 TP, and 0 FP).
+* **KNN (Best performing):** Accuracy of 91.83%, Precision of 0.95, and Recall of 0.95.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+BGE||LLM1_Qwen||Q5_dataset_balancing_metrics,Q5_dataset_balancing_metrics,BGE,LLM1_Qwen,groq,1.819,98.5,45.25,32.4,"How does dataset balancing affect classifier performance, which algorithm performed best on the balanced dataset, and what evaluation metrics were reported?","The original dataset was imbalanced with 109 Parkinson's records and only 40 healthy records. The authors upsampled the minority healthy class to 109 records, creating a balanced dataset of 218 instances (Approach 3). On this balanced dataset, K-Nearest Neighbors (KNN) demonstrated the highest performance, achieving 91.83% accuracy, 0.95 precision, 0.95 recall, and an ROC-AUC of 0.883 (Table 4). The paper also utilizes confusion matrices, F1 score, and ROC curves to evaluate trade-offs between clinical sensitivity and specificity.","Based on the provided context passages, here is the answer to your questions:
+
+**1. How dataset balancing affects classifier performance:**
+The provided context does not contain sufficient information to determine the specific effect of dataset balancing on classifier performance (e.g., whether it improved or degraded accuracy). The text describes the *method* of balancing (up-sampling the minority class from 40 to 109 records to match the majority class of 109 records) and states that models were retrained on this balanced data, but it does not provide the resulting performance metrics or a comparison of performance before and after balancing.
+
+**2. Which algorithm performed best on the balanced dataset:**
+The provided context does not contain sufficient information to identify which algorithm performed best. The text lists the algorithms used (SVM, logistic regression, random forest, and KNN) and the evaluation methods, but it does not report the specific results, rankings, or comparative outcomes of these models on the balanced dataset.
+
+**3. What evaluation metrics were reported:**
+The evaluation metrics explicitly documented in the passages for comparing classification results are:
+*   Confusion matrix
+*   ROC-AUC curve
+*   Accuracy
+
+**Additional Methodological Details from Context:**
+*   **Balancing Method:** Up-sampling the minority class (normal people) from 40 records to 109 records to match the majority class (PWP).
+*   **Preprocessing:** Data was scaled to a common range using Standard Scaler.
+*   **Data Split:** The dataset was split into training and testing sets, with training data comprising 75% of the total.
+*   **Algorithms Tested:** SVM, logistic regression, random forest, and KNN.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+BGE||LLM2_GPT_OSS||Q5_dataset_balancing_metrics,Q5_dataset_balancing_metrics,BGE,LLM2_GPT_OSS,groq,1.022,100.0,50.0,0.0,"How does dataset balancing affect classifier performance, which algorithm performed best on the balanced dataset, and what evaluation metrics were reported?","The original dataset was imbalanced with 109 Parkinson's records and only 40 healthy records. The authors upsampled the minority healthy class to 109 records, creating a balanced dataset of 218 instances (Approach 3). On this balanced dataset, K-Nearest Neighbors (KNN) demonstrated the highest performance, achieving 91.83% accuracy, 0.95 precision, 0.95 recall, and an ROC-AUC of 0.883 (Table 4). The paper also utilizes confusion matrices, F1 score, and ROC curves to evaluate trade-offs between clinical sensitivity and specificity.",The provided context does not contain sufficient information.,3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+BGE||LLM3_Gemini||Q5_dataset_balancing_metrics,Q5_dataset_balancing_metrics,BGE,LLM3_Gemini,gemini,9.2,98.5,45.25,32.4,"How does dataset balancing affect classifier performance, which algorithm performed best on the balanced dataset, and what evaluation metrics were reported?","The original dataset was imbalanced with 109 Parkinson's records and only 40 healthy records. The authors upsampled the minority healthy class to 109 records, creating a balanced dataset of 218 instances (Approach 3). On this balanced dataset, K-Nearest Neighbors (KNN) demonstrated the highest performance, achieving 91.83% accuracy, 0.95 precision, 0.95 recall, and an ROC-AUC of 0.883 (Table 4). The paper also utilizes confusion matrices, F1 score, and ROC curves to evaluate trade-offs between clinical sensitivity and specificity.","Based on the provided context, the exact impact of dataset balancing on classifier performance and which specific algorithm performed best are not detailed; the text only outlines the methodological steps for handling the imbalanced data and evaluating the models. 
+
+Regarding the methodology and evaluation metrics reported for comparing the classification results, the provided context states:
+* **Methodology for balancing:** The original dataset contained 109 records of PWP (people with Parkinson's) and 40 records of normal people. This imbalance was resolved by up-sampling the minority class (normal records) to reach 109 records each. The data was then scaled to a common range using Standard Scaler, split into training and testing sets (with training data comprising 75% of the total), and models (SVM, logistic regression, random forest, and KNN) were retrained.
+* **Evaluation metrics:** The classification results were compared using the **confusion matrix**, **ROC-AUC curve**, and **accuracy**. 
+
+The provided context does not contain sufficient information regarding the specific performance outcomes, accuracy scores, or which algorithm performed best on the balanced dataset.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+Gemini-Emb||LLM1_Qwen||Q5_dataset_balancing_metrics,Q5_dataset_balancing_metrics,Gemini-Emb,LLM1_Qwen,groq,1.668,98.5,92.35,94.2,"How does dataset balancing affect classifier performance, which algorithm performed best on the balanced dataset, and what evaluation metrics were reported?","The original dataset was imbalanced with 109 Parkinson's records and only 40 healthy records. The authors upsampled the minority healthy class to 109 records, creating a balanced dataset of 218 instances (Approach 3). On this balanced dataset, K-Nearest Neighbors (KNN) demonstrated the highest performance, achieving 91.83% accuracy, 0.95 precision, 0.95 recall, and an ROC-AUC of 0.883 (Table 4). The paper also utilizes confusion matrices, F1 score, and ROC curves to evaluate trade-offs between clinical sensitivity and specificity.","Based on the provided context passages, here is the analysis of dataset balancing, algorithm performance, and evaluation metrics:
+
+**Effect of Dataset Balancing on Classifier Performance**
+The context indicates that the original dataset was imbalanced, containing 109 records of Parkinson’s patients (PWP) and 40 records of normal people. To resolve this imbalance, the minority class (normal records) was up-sampled to reach 109 records each, creating a balanced dataset. This balancing process ensures that ""equal weightage is given to PWP and non-Parkinson’s patients."" While the text does not provide a direct numerical comparison between the imbalanced and balanced results for all models, it establishes that the balanced dataset (Approach 3) was used to train the models to mitigate the bias caused by the initial skew.
+
+**Best Performing Algorithm on the Balanced Dataset**
+According to Table 4, which details the results for Approach 3 (Balanced dataset), the **KNN (K-Nearest Neighbors)** algorithm performed best. It achieved the highest values across all reported metrics:
+*   **Accuracy:** 91.83%
+*   **Precision:** 0.95
+*   **Recall:** 0.95
+
+In comparison, Logistic Regression and Random Forest both achieved an accuracy of 85.71%, while SVM achieved an accuracy of 81.63%.
+
+**Reported Evaluation Metrics**
+The evaluation metrics explicitly reported in Table 4 for the balanced dataset are:
+1.  **Accuracy**
+2.  **Precision**
+3.  **Recall**
+
+Additionally, the methodology section (Passage 1 and Passage 3) states that classification results were compared using:
+*   **Confusion matrix**
+*   **ROC-AUC curve**
+*   **Accuracy**
+
+Specific confusion matrix values for SVM on the balanced dataset are also provided in Passage 2: 5 True Negatives (TN), 6 False Negatives (FN), 38 True Positives (TP), and 0 False Positives (FP).",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+Gemini-Emb||LLM2_GPT_OSS||Q5_dataset_balancing_metrics,Q5_dataset_balancing_metrics,Gemini-Emb,LLM2_GPT_OSS,groq,2.077,96.5,88.25,92.4,"How does dataset balancing affect classifier performance, which algorithm performed best on the balanced dataset, and what evaluation metrics were reported?","The original dataset was imbalanced with 109 Parkinson's records and only 40 healthy records. The authors upsampled the minority healthy class to 109 records, creating a balanced dataset of 218 instances (Approach 3). On this balanced dataset, K-Nearest Neighbors (KNN) demonstrated the highest performance, achieving 91.83% accuracy, 0.95 precision, 0.95 recall, and an ROC-AUC of 0.883 (Table 4). The paper also utilizes confusion matrices, F1 score, and ROC curves to evaluate trade-offs between clinical sensitivity and specificity.","**Effect of dataset balancing**
+
+- Balancing the data (up‑sampling the minority class to 109 records each) was performed to give equal weight to Parkinson’s patients (PWP) and normal subjects.  
+- After balancing, the classifiers were retrained and their performance was evaluated on the same 75 %/25 % train/test split.  
+- The reported results (Table 4) show that the balanced dataset produced clear, comparable performance figures for all models, allowing a fair comparison of their discriminative ability.
+
+**Best performing algorithm on the balanced dataset**
+
+| Algorithm | Accuracy | Precision | Recall |
+|-----------|----------|-----------|--------|
+| Logistic Regression | 85.71 % | 0.89 | 0.92 |
+| Random Forest | 85.71 % | 0.89 | 0.92 |
+| SVM | 81.63 % | 0.82 | 0.94 |
+| **KNN** | **91.83 %** | **0.95** | **0.95** |
+
+- **KNN** achieved the highest accuracy (91.83 %), precision (0.95), and recall (0.95) on the balanced dataset, making it the best performing classifier in this setting.
+
+**Evaluation metrics reported**
+
+- **Accuracy** (percentage of correctly classified instances).  
+- **Precision** (positive predictive value).  
+- **Recall** (sensitivity / true‑positive rate).  
+- Additionally, the methodology mentions that confusion matrices, ROC‑AUC curves, and accuracy were used for comparison, but only the numerical values for accuracy, precision, and recall are provided in the passage.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+Gemini-Emb||LLM3_Gemini||Q5_dataset_balancing_metrics,Q5_dataset_balancing_metrics,Gemini-Emb,LLM3_Gemini,gemini,9.256,98.5,92.3,94.2,"How does dataset balancing affect classifier performance, which algorithm performed best on the balanced dataset, and what evaluation metrics were reported?","The original dataset was imbalanced with 109 Parkinson's records and only 40 healthy records. The authors upsampled the minority healthy class to 109 records, creating a balanced dataset of 218 instances (Approach 3). On this balanced dataset, K-Nearest Neighbors (KNN) demonstrated the highest performance, achieving 91.83% accuracy, 0.95 precision, 0.95 recall, and an ROC-AUC of 0.883 (Table 4). The paper also utilizes confusion matrices, F1 score, and ROC curves to evaluate trade-offs between clinical sensitivity and specificity.","Based on the provided context, dataset balancing (resolving the imbalance by up-sampling the minority class of normal people from 40 records to reach 109 records each, matching the 109 records of Parkinson's patients) ensures equal weightage is given to Parkinson's patients (PWP) and non-Parkinson's patients. 
+
+For the balanced dataset (Approach 3), the **KNN** algorithm performed best overall, achieving an accuracy of **91.83%**, a precision of **0.95**, and a recall (sensitivity) of **0.95**. 
+
+The reported evaluation metrics across the models for the balanced dataset are as follows:
+* **Logistic Regression:** Accuracy: **85.71%**, Precision: **0.89**, Recall: **0.92**
+* **Random Forest:** Accuracy: **85.71%**, Precision: **0.89**, Recall: **0.92**
+* **SVM:** Accuracy: **81.63%**, Precision: **0.82**, Recall: **0.94** (Additionally, the confusion matrix breakdown for SVM shows 5 TN, 6 FN, 38 TP, and 0 FP).
+* **KNN:** Accuracy: **91.83%**, Precision: **0.95**, Recall: **0.95**
+
+Furthermore, the general methodology for comparing classification results across the models utilizes confusion matrices, ROC-AUC curves, and accuracy.",3,paper1,"Parkinson's Disease Voice Detection (Govindu & Palwe, 2023)",Biomedical Signal Processing & Clinical Diagnostics
+MiniLM||LLM1_Qwen||Q1_transformer_architecture,Q1_transformer_architecture,MiniLM,LLM1_Qwen,groq,2.126,94.5,78.25,82.4,"What is the primary architectural contribution of the Transformer, how does it dispense with recurrence and convolutions, and what are its encoder and decoder layer stack depths?",The Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output without using sequence-aligned RNNs or convolution. It uses an encoder-decoder architecture where both the encoder and decoder are composed of stacks of N = 6 identical layers. The encoder contains multi-head self-attention and position-wise feed-forward sub-layers with residual connections and layer normalization. The decoder inserts a third sub-layer that performs multi-head attention over the encoder output and employs masking in self-attention to ensure predictions for position i depend only on known outputs at positions less than i.,"Based on the provided context passages, the primary architectural contribution of the Transformer is its use of **stacked self-attention and point-wise, fully connected layers** for both the encoder and decoder. This architecture allows for significantly more parallelization compared to previous models.
+
+The Transformer dispenses with recurrence and convolutions by reducing the number of operations required to relate signals from two arbitrary input or output positions to a **constant number of operations**. In contrast, convolutional models like ConvS2S and ByteNet require a number of operations that grows linearly or logarithmically with the distance between positions, respectively, which makes learning dependencies between distant positions more difficult. The Transformer counteracts the reduced effective resolution caused by averaging attention-weighted positions through the use of **Multi-Head Attention**.
+
+Regarding the layer stack depths:
+*   **Encoder:** Composed of a stack of **N = 6** identical layers.
+*   **Decoder:** The text states that the Transformer uses stacked self-attention and point-wise, fully connected layers for both the encoder and decoder, but it does not explicitly state the numerical depth (N) for the decoder stack in the provided passages. It only confirms the architectural similarity to the encoder.
+
+Each encoder layer contains two sub-layers: a multi-head self-attention mechanism and a position-wise fully connected feed-forward network, with a residual connection employed around each sub-layer.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+MiniLM||LLM2_GPT_OSS||Q1_transformer_architecture,Q1_transformer_architecture,MiniLM,LLM2_GPT_OSS,groq,1.717,94.5,88.25,78.65,"What is the primary architectural contribution of the Transformer, how does it dispense with recurrence and convolutions, and what are its encoder and decoder layer stack depths?",The Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output without using sequence-aligned RNNs or convolution. It uses an encoder-decoder architecture where both the encoder and decoder are composed of stacks of N = 6 identical layers. The encoder contains multi-head self-attention and position-wise feed-forward sub-layers with residual connections and layer normalization. The decoder inserts a third sub-layer that performs multi-head attention over the encoder output and employs masking in self-attention to ensure predictions for position i depend only on known outputs at positions less than i.,"**Primary architectural contribution**  
+The Transformer introduces a fully attention‑based architecture that replaces the traditional recurrent or convolutional mechanisms with **stacked self‑attention** followed by **position‑wise, fully‑connected feed‑forward networks**. This design allows the model to compute hidden representations for all input and output positions in parallel, thereby eliminating the need for sequential recurrence or convolutional layers.
+
+**How it dispenses with recurrence and convolutions**  
+- **Recurrence**: By using self‑attention, each token can attend to every other token in the sequence in a single operation, removing the need for step‑by‑step recurrent updates.  
+- **Convolutions**: The model computes representations for all positions simultaneously, so there is no need for convolutional filters that slide over the sequence. The number of operations required to relate two arbitrary positions is reduced to a constant (as opposed to linear or logarithmic growth in convolution‑based models such as ConvS2S or ByteNet).
+
+**Encoder and decoder layer stack depths**  
+- **Encoder**: The encoder stack consists of **N = 6 identical layers** (each layer contains a multi‑head self‑attention sub‑layer and a position‑wise feed‑forward sub‑layer).  
+- **Decoder**: The provided context does not specify the depth of the decoder stack.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+MiniLM||LLM3_Gemini||Q1_transformer_architecture,Q1_transformer_architecture,MiniLM,LLM3_Gemini,gemini,5.348,94.5,78.25,72.4,"What is the primary architectural contribution of the Transformer, how does it dispense with recurrence and convolutions, and what are its encoder and decoder layer stack depths?",The Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output without using sequence-aligned RNNs or convolution. It uses an encoder-decoder architecture where both the encoder and decoder are composed of stacks of N = 6 identical layers. The encoder contains multi-head self-attention and position-wise feed-forward sub-layers with residual connections and layer normalization. The decoder inserts a third sub-layer that performs multi-head attention over the encoder output and employs masking in self-attention to ensure predictions for position i depend only on known outputs at positions less than i.,"Based on the provided context, the primary architectural characteristics and details of the Transformer are as follows:
+
+* **Architectural composition/Dispensing with recurrence and convolutions:** The Transformer follows an architecture using stacked self-attention and point-wise, fully connected layers for both the encoder and decoder (Passage 1). It reduces the number of operations required to relate signals from two arbitrary input or output positions to a constant number of operations (Passage 3). 
+* **Encoder and Decoder layer stack depths:** The encoder is composed of a stack of $N = 6$ identical layers (Passage 1).",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+BGE||LLM1_Qwen||Q1_transformer_architecture,Q1_transformer_architecture,BGE,LLM1_Qwen,groq,1.038,96.5,85.25,78.4,"What is the primary architectural contribution of the Transformer, how does it dispense with recurrence and convolutions, and what are its encoder and decoder layer stack depths?",The Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output without using sequence-aligned RNNs or convolution. It uses an encoder-decoder architecture where both the encoder and decoder are composed of stacks of N = 6 identical layers. The encoder contains multi-head self-attention and position-wise feed-forward sub-layers with residual connections and layer normalization. The decoder inserts a third sub-layer that performs multi-head attention over the encoder output and employs masking in self-attention to ensure predictions for position i depend only on known outputs at positions less than i.,"Based on the provided context passages, the primary architectural contribution of the Transformer is a new simple network architecture based **solely on attention mechanisms**, which dispenses with recurrence and convolutions entirely.
+
+Regarding how it dispenses with recurrence and convolutions, the text explicitly states that the model is ""based solely on attention mechanisms, dispensing with recurrence and convolutions entirely"" [Passage 3]. It contrasts this with previous models that used ""complex recurrent or convolutional neural networks"" [Passage 3] or ""convolutional neural networks as basic building block"" [Passage 2]. The Transformer achieves this by using ""stacked self-attention and point-wise, fully connected layers"" [Passage 1].
+
+Regarding the layer stack depths:
+*   **Encoder:** The encoder is composed of a stack of **N = 6** identical layers [Passage 1].
+*   **Decoder:** The provided context does not explicitly state the numerical depth (number of layers) for the decoder stack. It only mentions that the architecture uses ""stacked self-attention and point-wise, fully connected layers for both the encoder and decoder"" [Passage 1] and that the encoder and decoder are connected through an attention mechanism [Passage 3]. Therefore, the specific layer count for the decoder is not contained in the provided text.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+BGE||LLM2_GPT_OSS||Q1_transformer_architecture,Q1_transformer_architecture,BGE,LLM2_GPT_OSS,groq,1.358,100.0,45.3,12.5,"What is the primary architectural contribution of the Transformer, how does it dispense with recurrence and convolutions, and what are its encoder and decoder layer stack depths?",The Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output without using sequence-aligned RNNs or convolution. It uses an encoder-decoder architecture where both the encoder and decoder are composed of stacks of N = 6 identical layers. The encoder contains multi-head self-attention and position-wise feed-forward sub-layers with residual connections and layer normalization. The decoder inserts a third sub-layer that performs multi-head attention over the encoder output and employs masking in self-attention to ensure predictions for position i depend only on known outputs at positions less than i.,The provided context does not contain sufficient information.,3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+BGE||LLM3_Gemini||Q1_transformer_architecture,Q1_transformer_architecture,BGE,LLM3_Gemini,gemini,2.543,94.5,88.25,78.65,"What is the primary architectural contribution of the Transformer, how does it dispense with recurrence and convolutions, and what are its encoder and decoder layer stack depths?",The Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output without using sequence-aligned RNNs or convolution. It uses an encoder-decoder architecture where both the encoder and decoder are composed of stacks of N = 6 identical layers. The encoder contains multi-head self-attention and position-wise feed-forward sub-layers with residual connections and layer normalization. The decoder inserts a third sub-layer that performs multi-head attention over the encoder output and employs masking in self-attention to ensure predictions for position i depend only on known outputs at positions less than i.,"Based on the provided context, the primary architectural contribution of the Transformer is a new simple network architecture based solely on attention mechanisms, dispensing with recurrence and convolutions entirely (using stacked self-attention and point-wise, fully connected layers instead). 
+
+Regarding its encoder layer stack depth, the encoder is composed of a stack of $N = 6$ identical layers (the context does not explicitly state the decoder layer stack depth other than mentioning it is part of the encoder and decoder stacks utilizing stacked self-attention and point-wise, fully connected layers).",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+Gemini-Emb||LLM1_Qwen||Q1_transformer_architecture,Q1_transformer_architecture,Gemini-Emb,LLM1_Qwen,groq,0.727,94.5,88.25,78.65,"What is the primary architectural contribution of the Transformer, how does it dispense with recurrence and convolutions, and what are its encoder and decoder layer stack depths?",The Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output without using sequence-aligned RNNs or convolution. It uses an encoder-decoder architecture where both the encoder and decoder are composed of stacks of N = 6 identical layers. The encoder contains multi-head self-attention and position-wise feed-forward sub-layers with residual connections and layer normalization. The decoder inserts a third sub-layer that performs multi-head attention over the encoder output and employs masking in self-attention to ensure predictions for position i depend only on known outputs at positions less than i.,"Based on the provided context passages, the primary architectural contribution of the Transformer is a new simple network architecture based **solely on attention mechanisms**, which dispenses with recurrence and convolutions entirely.
+
+The model achieves this by relying **entirely on self-attention** to compute representations of its input and output, without using sequence-aligned RNNs (recurrent neural networks) or convolution.
+
+Regarding the layer stack depths:
+*   **Encoder:** The encoder is composed of a stack of **N = 6** identical layers.
+*   **Decoder:** The text states that the Transformer uses ""stacked self-attention and point-wise, fully connected layers for both the encoder and decoder,"" but the provided passages **do not explicitly state the specific numerical depth (number of layers) for the decoder stack**. Passage 1 only specifies the depth for the encoder.
+
+Therefore, while the encoder depth is explicitly documented as 6 layers, the specific layer count for the decoder is not contained in the provided text.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+Gemini-Emb||LLM2_GPT_OSS||Q1_transformer_architecture,Q1_transformer_architecture,Gemini-Emb,LLM2_GPT_OSS,groq,1.114,94.5,88.25,78.65,"What is the primary architectural contribution of the Transformer, how does it dispense with recurrence and convolutions, and what are its encoder and decoder layer stack depths?",The Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output without using sequence-aligned RNNs or convolution. It uses an encoder-decoder architecture where both the encoder and decoder are composed of stacks of N = 6 identical layers. The encoder contains multi-head self-attention and position-wise feed-forward sub-layers with residual connections and layer normalization. The decoder inserts a third sub-layer that performs multi-head attention over the encoder output and employs masking in self-attention to ensure predictions for position i depend only on known outputs at positions less than i.,"**Primary architectural contribution**  
+The Transformer introduces a neural sequence‑transduction architecture that relies **solely on self‑attention mechanisms** and point‑wise, fully‑connected feed‑forward layers. By doing so, it **dispenses with both recurrence (RNNs) and convolution**; all contextual information is captured through multi‑head self‑attention, and the model can be trained in parallel across sequence positions.
+
+**Encoder and decoder stack depths**  
+- **Encoder**: composed of a stack of **N = 6 identical layers** (each layer contains a multi‑head self‑attention sub‑layer followed by a position‑wise feed‑forward sub‑layer).  
+- **Decoder**: the depth of the decoder stack is **not specified in the provided passages**.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+Gemini-Emb||LLM3_Gemini||Q1_transformer_architecture,Q1_transformer_architecture,Gemini-Emb,LLM3_Gemini,gemini,1.317,96.5,82.4,78.65,"What is the primary architectural contribution of the Transformer, how does it dispense with recurrence and convolutions, and what are its encoder and decoder layer stack depths?",The Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output without using sequence-aligned RNNs or convolution. It uses an encoder-decoder architecture where both the encoder and decoder are composed of stacks of N = 6 identical layers. The encoder contains multi-head self-attention and position-wise feed-forward sub-layers with residual connections and layer normalization. The decoder inserts a third sub-layer that performs multi-head attention over the encoder output and employs masking in self-attention to ensure predictions for position i depend only on known outputs at positions less than i.,"Based on the provided context, the primary architectural contribution of the Transformer is a new simple network architecture based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Instead of using sequence-aligned RNNs or convolutions, it relies entirely on self-attention to compute representations of its input and output. Regarding the stack depths, the encoder is composed of a stack of $N = 6$ identical layers.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+MiniLM||LLM1_Qwen||Q2_scaled_dot_product_attention,Q2_scaled_dot_product_attention,MiniLM,LLM1_Qwen,groq,0.522,100.0,33.33,0.0,"Explain the mathematical formula for Scaled Dot-Product Attention, why the scaling factor 1/sqrt(d_k) is applied, and what parameter values are used for d_model, number of heads h, and d_k, d_v in the base model?","Scaled Dot-Product Attention is computed as Attention(Q, K, V) = softmax((Q * K^T) / sqrt(d_k)) * V. The scaling factor 1/sqrt(d_k) is introduced because for large values of d_k, the dot products grow large in magnitude, pushing the softmax function into regions with extremely small gradients. In the base model, Multi-Head Attention employs h = 8 parallel attention heads, with model dimension d_model = 512, and projection dimensions d_k = d_v = d_model / h = 64.","The provided context does not contain sufficient information.
+
+**Reasoning:**
+1.  **Mathematical Formula:** While Passages 1 and 2 describe the components (queries, keys, values, dot products, softmax) and the scaling operation, they do not explicitly provide the complete mathematical formula (e.g., $Attention(Q, K, V) = softmax(\frac{QK^T}{\sqrt{d_k}})V$).
+2.  **Parameter Values:** The provided passages do not contain any specific numerical values for the base model's parameters, including $d_{model}$, the number of heads $h$, or the specific dimensions $d_k$ and $d_v$. Passage 3 mentions that queries, keys, and values are projected $h$ times to $d_k$, $d_k$, and $d_v$ dimensions respectively, but does not state what those specific values are.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+MiniLM||LLM2_GPT_OSS||Q2_scaled_dot_product_attention,Q2_scaled_dot_product_attention,MiniLM,LLM2_GPT_OSS,groq,0.815,100.0,0.0,0.0,"Explain the mathematical formula for Scaled Dot-Product Attention, why the scaling factor 1/sqrt(d_k) is applied, and what parameter values are used for d_model, number of heads h, and d_k, d_v in the base model?","Scaled Dot-Product Attention is computed as Attention(Q, K, V) = softmax((Q * K^T) / sqrt(d_k)) * V. The scaling factor 1/sqrt(d_k) is introduced because for large values of d_k, the dot products grow large in magnitude, pushing the softmax function into regions with extremely small gradients. In the base model, Multi-Head Attention employs h = 8 parallel attention heads, with model dimension d_model = 512, and projection dimensions d_k = d_v = d_model / h = 64.",The provided context does not contain sufficient information.,3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+MiniLM||LLM3_Gemini||Q2_scaled_dot_product_attention,Q2_scaled_dot_product_attention,MiniLM,LLM3_Gemini,gemini,5.261,92.5,45.0,35.2,"Explain the mathematical formula for Scaled Dot-Product Attention, why the scaling factor 1/sqrt(d_k) is applied, and what parameter values are used for d_model, number of heads h, and d_k, d_v in the base model?","Scaled Dot-Product Attention is computed as Attention(Q, K, V) = softmax((Q * K^T) / sqrt(d_k)) * V. The scaling factor 1/sqrt(d_k) is introduced because for large values of d_k, the dot products grow large in magnitude, pushing the softmax function into regions with extremely small gradients. In the base model, Multi-Head Attention employs h = 8 parallel attention heads, with model dimension d_model = 512, and projection dimensions d_k = d_v = d_model / h = 64.","Based on the provided context:
+
+*   **Mathematical Formula and Scaling Factor:** The provided context mentions that the dot products are scaled by $\frac{1}{\sqrt{d_k}}$ to counteract the effect where large values of $d_k$ (the dimension of the keys) cause dot products to grow large in magnitude, which pushes the softmax function into regions with extremely small gradients. (Note: The exact mathematical matrix formulation for the attention function itself is not fully detailed in the provided text, beyond stating that dot products of the queries and keys are computed and scaled).
+*   **Parameter Values ($d_{model}$, $h$, $d_k$, $d_v$):** The provided context does not contain sufficient information regarding the specific numerical parameter values used for $d_{model}$, the number of heads $h$, or $d_k$ and $d_v$ in the base model.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+BGE||LLM1_Qwen||Q2_scaled_dot_product_attention,Q2_scaled_dot_product_attention,BGE,LLM1_Qwen,groq,31.29,92.5,45.25,12.4,"Explain the mathematical formula for Scaled Dot-Product Attention, why the scaling factor 1/sqrt(d_k) is applied, and what parameter values are used for d_model, number of heads h, and d_k, d_v in the base model?","Scaled Dot-Product Attention is computed as Attention(Q, K, V) = softmax((Q * K^T) / sqrt(d_k)) * V. The scaling factor 1/sqrt(d_k) is introduced because for large values of d_k, the dot products grow large in magnitude, pushing the softmax function into regions with extremely small gradients. In the base model, Multi-Head Attention employs h = 8 parallel attention heads, with model dimension d_model = 512, and projection dimensions d_k = d_v = d_model / h = 64.","The provided context does not contain sufficient information.
+
+**Reasoning:**
+1.  **Mathematical Formula:** While Passage 1 describes the inputs (queries and keys of dimension $d_k$, values of dimension $d_v$) and the process (computing dot products), it does not explicitly provide the complete mathematical formula for Scaled Dot-Product Attention (e.g., $Attention(Q, K, V) = softmax(\frac{QK^T}{\sqrt{d_k}})V$).
+2.  **Scaling Factor:** Passage 2 and Passage 3 explain *why* the scaling factor $1/\sqrt{d_k}$ is applied. Passage 3 states that if components of $q$ and $k$ are independent random variables with mean 0 and variance 1, their dot product has a variance of $d_k$. Passage 2 notes that this causes gradients to become small (specifically mentioning ""dients 4"" which implies gradients), and scaling counteracts this effect.
+3.  **Parameter Values:** None of the provided passages specify the numerical values for $d_{model}$, the number of heads $h$, or the specific dimensions $d_k$ and $d_v$ used in the ""base model."" Passage 2 mentions that queries, keys, and values are projected $h$ times to $d_k$, $d_k$, and $d_v$ dimensions respectively, but does not assign specific integer values to these variables.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+BGE||LLM2_GPT_OSS||Q2_scaled_dot_product_attention,Q2_scaled_dot_product_attention,BGE,LLM2_GPT_OSS,groq,1.649,88.5,75.25,62.4,"Explain the mathematical formula for Scaled Dot-Product Attention, why the scaling factor 1/sqrt(d_k) is applied, and what parameter values are used for d_model, number of heads h, and d_k, d_v in the base model?","Scaled Dot-Product Attention is computed as Attention(Q, K, V) = softmax((Q * K^T) / sqrt(d_k)) * V. The scaling factor 1/sqrt(d_k) is introduced because for large values of d_k, the dot products grow large in magnitude, pushing the softmax function into regions with extremely small gradients. In the base model, Multi-Head Attention employs h = 8 parallel attention heads, with model dimension d_model = 512, and projection dimensions d_k = d_v = d_model / h = 64.","**Scaled Dot‑Product Attention**
+
+The attention mechanism takes three matrices:
+
+* **Q** – queries (dimension \(d_k\))
+* **K** – keys (dimension \(d_k\))
+* **V** – values (dimension \(d_v\))
+
+The core operation is to compute the dot product of each query with every key, scale the result, and use it to weight the values. In mathematical form:
+
+\[
+\text{Attention}(Q,K,V)=\operatorname{softmax}\!\left(\frac{QK^{\top}}{\sqrt{d_k}}\right)V
+\]
+
+* The numerator \(QK^{\top}\) is the matrix of dot products between all query–key pairs.  
+* The denominator \(\sqrt{d_k}\) is the scaling factor.
+
+**Why the scaling factor \(1/\sqrt{d_k}\) is applied**
+
+The passage explains that if the components of a query \(q\) and a key \(k\) are independent random variables with mean 0 and variance 1, then their dot product
+
+\[
+q\!\cdot\!k=\sum_{i=1}^{d_k} q",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+BGE||LLM3_Gemini||Q2_scaled_dot_product_attention,Q2_scaled_dot_product_attention,BGE,LLM3_Gemini,gemini,11.756,92.5,45.0,58.2,"Explain the mathematical formula for Scaled Dot-Product Attention, why the scaling factor 1/sqrt(d_k) is applied, and what parameter values are used for d_model, number of heads h, and d_k, d_v in the base model?","Scaled Dot-Product Attention is computed as Attention(Q, K, V) = softmax((Q * K^T) / sqrt(d_k)) * V. The scaling factor 1/sqrt(d_k) is introduced because for large values of d_k, the dot products grow large in magnitude, pushing the softmax function into regions with extremely small gradients. In the base model, Multi-Head Attention employs h = 8 parallel attention heads, with model dimension d_model = 512, and projection dimensions d_k = d_v = d_model / h = 64.","Based on the provided context, the details are as follows:
+
+* **Mathematical formula for Scaled Dot-Product Attention:** The provided context does not explicitly state the full matrix equation (e.g., $\text{Attention}(Q, K, V) = \text{softmax}(\frac{QK^T}{\sqrt{d_k}})V$), but it notes that the input consists of queries and keys of dimension $d_k$ and values of dimension $d_v$, where the dot products of the queries and keys are computed and scaled by $\frac{1}{\sqrt{d_k}}$ to determine the weight assigned to each value.
+* **Why the scaling factor $\frac{1}{\sqrt{d_k}}$ is applied:** To counteract the effect of the dot products getting large for large values of $d_k$, which pushes the softmax function into regions with extremely small gradients. Specifically, assuming the components of $q$ and $k$ are independent random variables with mean 0 and variance 1, their dot product $q \cdot k = \sum_{i=1}^{d_k} q_i k_i$ has a mean of 0 and a variance of $d_k$.
+* **Parameter values for $d_{\text{model}}$, number of heads $h$, and $d_k, d_v$ in the base model:** The provided context does not contain sufficient information regarding the specific parameter values used for $d_{\text{model}}$, the number of heads $h$, or $d_k$ and $d_v$ in the base model.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+Gemini-Emb||LLM1_Qwen||Q2_scaled_dot_product_attention,Q2_scaled_dot_product_attention,Gemini-Emb,LLM1_Qwen,groq,0.92,98.5,66.67,60.0,"Explain the mathematical formula for Scaled Dot-Product Attention, why the scaling factor 1/sqrt(d_k) is applied, and what parameter values are used for d_model, number of heads h, and d_k, d_v in the base model?","Scaled Dot-Product Attention is computed as Attention(Q, K, V) = softmax((Q * K^T) / sqrt(d_k)) * V. The scaling factor 1/sqrt(d_k) is introduced because for large values of d_k, the dot products grow large in magnitude, pushing the softmax function into regions with extremely small gradients. In the base model, Multi-Head Attention employs h = 8 parallel attention heads, with model dimension d_model = 512, and projection dimensions d_k = d_v = d_model / h = 64.","Based on the provided context passages, here is the explanation:
+
+**Mathematical Formula**
+The mathematical formula for Scaled Dot-Product Attention is explicitly defined in Passage 2 as:
+$$ \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V $$
+In this formula, queries and keys have dimension $d_k$, and values have dimension $d_v$. The process involves computing the dot products of the query with all keys, dividing each by $\sqrt{d_k}$, and applying a softmax function to obtain weights on the values.
+
+**Reason for Scaling Factor $1/\sqrt{d_k}$**
+According to Passages 1 and 3, the scaling factor is applied to counteract the effect of large dot product magnitudes. Specifically, for large values of $d_k$, the dot products grow large in magnitude, which pushes the softmax function into regions where it has extremely small gradients. Scaling the dot products by $1/\sqrt{d_k}$ mitigates this issue.
+
+**Parameter Values for Base Model**
+The provided context **does not contain sufficient information** to answer the specific parameter values for $d_{model}$, the number of heads $h$, or the specific numerical values for $d_k$ and $d_v$ in the base model. While Passage 1 mentions that queries, keys, and values are projected $h$ times to dimensions $d_k$, $d_k$, and $d_v$ respectively, it does not provide the specific numerical values used in the base model configuration.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+Gemini-Emb||LLM2_GPT_OSS||Q2_scaled_dot_product_attention,Q2_scaled_dot_product_attention,Gemini-Emb,LLM2_GPT_OSS,groq,2.507,94.5,66.67,72.0,"Explain the mathematical formula for Scaled Dot-Product Attention, why the scaling factor 1/sqrt(d_k) is applied, and what parameter values are used for d_model, number of heads h, and d_k, d_v in the base model?","Scaled Dot-Product Attention is computed as Attention(Q, K, V) = softmax((Q * K^T) / sqrt(d_k)) * V. The scaling factor 1/sqrt(d_k) is introduced because for large values of d_k, the dot products grow large in magnitude, pushing the softmax function into regions with extremely small gradients. In the base model, Multi-Head Attention employs h = 8 parallel attention heads, with model dimension d_model = 512, and projection dimensions d_k = d_v = d_model / h = 64.","**Scaled Dot‑Product Attention**
+
+The attention output for a set of queries \(Q\), keys \(K\) and values \(V\) is computed as  
+
+\[
+\text{Attention}(Q,K,V)=\operatorname{softmax}\!\left(\frac{QK^{\top}}{\sqrt{d_k}}\right)V \tag{1}
+\]
+
+where \(d_k\) is the dimensionality of the key (and query) vectors.  
+The softmax is applied row‑wise to the matrix of scaled dot products, producing a weight for each value vector, which is then summed to give the final attention output.
+
+**Why the scaling factor \(1/\sqrt{d_k}\) is applied**
+
+For large values of \(d_k\), the raw dot products \(QK^{\top}\) can become large in magnitude. When such large values are fed into the softmax function, the resulting probability distribution becomes very peaked, pushing the softmax into a region where its gradients are extremely small. This hampers learning. By dividing the dot products by \(\sqrt{d_k}\), the scale of the logits is kept roughly constant regardless of the dimensionality, preventing the softmax from saturating and maintaining healthy gradients during training.
+
+**Parameter values for the base model**
+
+The provided passages do not specify numerical values for the base model’s hyper‑parameters such as \(d_{\text{model}}\), the number of heads \(h\), or the dimensions \(d_k\) and \(d_v\). Therefore, the context does not contain sufficient information to answer that part of the question.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+Gemini-Emb||LLM3_Gemini||Q2_scaled_dot_product_attention,Q2_scaled_dot_product_attention,Gemini-Emb,LLM3_Gemini,gemini,1.6,100.0,66.67,60.0,"Explain the mathematical formula for Scaled Dot-Product Attention, why the scaling factor 1/sqrt(d_k) is applied, and what parameter values are used for d_model, number of heads h, and d_k, d_v in the base model?","Scaled Dot-Product Attention is computed as Attention(Q, K, V) = softmax((Q * K^T) / sqrt(d_k)) * V. The scaling factor 1/sqrt(d_k) is introduced because for large values of d_k, the dot products grow large in magnitude, pushing the softmax function into regions with extremely small gradients. In the base model, Multi-Head Attention employs h = 8 parallel attention heads, with model dimension d_model = 512, and projection dimensions d_k = d_v = d_model / h = 64.","Based on the provided context, the mathematical formula for Scaled Dot-Product Attention is:
+
+$$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
+
+**Reason for the scaling factor ($\frac{1}{\sqrt{d_k}}$):**
+For large values of $d_k$, the dot products grow large in magnitude, which pushes the softmax function into regions where it has extremely small gradients. To counteract this effect, the dot products are scaled by $\frac{1}{\sqrt{d_k}}$.
+
+**Parameter values for $d_{\text{model}}$, number of heads $h$, and $d_k, d_v$:**
+The provided context does not contain sufficient information to answer the question regarding the specific parameter values used for $d_{\text{model}}$, $h$, $d_k$, and $d_v$ in the base model.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+MiniLM||LLM1_Qwen||Q3_positional_encoding,Q3_positional_encoding,MiniLM,LLM1_Qwen,groq,1.126,92.5,75.0,68.4,"Why does the Transformer require positional encodings, what mathematical sinusoidal functions are used to compute them, and why were sinusoidal encodings chosen over learned embeddings?","Since the Transformer contains no recurrence and no convolution, positional encodings must be added to the input embeddings to inject sequence order information. They use sine and cosine functions of different frequencies: PE(pos, 2i) = sin(pos / 10000^(2i/d_model)) and PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model)), with wavelengths forming a geometric progression from 2*pi to 10000*2*pi. Sinusoidal encodings were chosen because they hypothesized it allows the model to attend by relative positions easily (since for any fixed offset k, PE(pos+k) can be represented as a linear function of PE(pos)) and may allow the model to extrapolate to sequence lengths longer than those encountered during training.","Based on the provided context passages, here is the answer to the question:
+
+**Why the Transformer requires positional encodings**
+The provided context does not explicitly state the fundamental reason why the Transformer architecture *requires* positional encodings (e.g., due to the permutation invariance of the self-attention mechanism). However, Passage 2 notes that positional encodings are used ""so that the two can be summed"" with the embeddings. Passage 3 explains that in the Transformer, the number of operations required to relate signals from two arbitrary positions is reduced to a constant number, but this comes at the cost of ""reduced effective resolution due to averaging attention-weighted positions."" The text states that this effect is counteracted with Multi-Head Attention, implying that positional information is necessary to maintain resolution and distinguish positions, though the explicit causal link to the *requirement* of the encoding itself is not fully detailed in the snippets.
+
+**Mathematical sinusoidal functions used**
+According to Passage 2, the work uses sine and cosine functions of different frequencies defined as follows:
+*   $PE_{(pos, 2i)} = \sin(pos/10000^{2i/d_{model}})$
+*   $PE_{(pos, 2i+1)} = \cos(pos/10000^{2i/d_{model}})$
+
+Where:
+*   $pos$ is the position.
+*   $i$ is the dimension.
+*   Each dimension of the positional encoding corresponds to a sinusoid.
+*   The wavelengths form a geometric progression from $2\pi$ to $10000 \cdot 2\pi$.
+
+**Why sinusoidal encodings were chosen over learned embeddings**
+Passage 2 states that the sinusoidal functions were chosen because the authors ""hypothesized it would allow the model to easily learn to attend by"" (the sentence is cut off in the provided text, but the hypothesis regarding ease of learning attention is the stated reason).
+
+Additionally, Passage 1 provides empirical evidence regarding the choice between fixed (sinusoidal) and learned positional embeddings. It notes that when the authors replaced the sinusoidal positional encoding with learned positional embeddings, they observed ""nearly identical results to the base model."" This suggests that while learned embeddings are a valid alternative, the sinusoidal approach was sufficient and performed comparably, supporting the initial hypothesis of its utility.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+MiniLM||LLM2_GPT_OSS||Q3_positional_encoding,Q3_positional_encoding,MiniLM,LLM2_GPT_OSS,groq,1.869,100.0,0.0,0.0,"Why does the Transformer require positional encodings, what mathematical sinusoidal functions are used to compute them, and why were sinusoidal encodings chosen over learned embeddings?","Since the Transformer contains no recurrence and no convolution, positional encodings must be added to the input embeddings to inject sequence order information. They use sine and cosine functions of different frequencies: PE(pos, 2i) = sin(pos / 10000^(2i/d_model)) and PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model)), with wavelengths forming a geometric progression from 2*pi to 10000*2*pi. Sinusoidal encodings were chosen because they hypothesized it allows the model to attend by relative positions easily (since for any fixed offset k, PE(pos+k) can be represented as a linear function of PE(pos)) and may allow the model to extrapolate to sequence lengths longer than those encountered during training.",The provided context does not contain sufficient information.,3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+MiniLM||LLM3_Gemini||Q3_positional_encoding,Q3_positional_encoding,MiniLM,LLM3_Gemini,gemini,1.45,96.5,78.25,62.4,"Why does the Transformer require positional encodings, what mathematical sinusoidal functions are used to compute them, and why were sinusoidal encodings chosen over learned embeddings?","Since the Transformer contains no recurrence and no convolution, positional encodings must be added to the input embeddings to inject sequence order information. They use sine and cosine functions of different frequencies: PE(pos, 2i) = sin(pos / 10000^(2i/d_model)) and PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model)), with wavelengths forming a geometric progression from 2*pi to 10000*2*pi. Sinusoidal encodings were chosen because they hypothesized it allows the model to attend by relative positions easily (since for any fixed offset k, PE(pos+k) can be represented as a linear function of PE(pos)) and may allow the model to extrapolate to sequence lengths longer than those encountered during training.","Based on the provided context, the text does not contain information explaining why the Transformer *requires* positional encodings. However, regarding the mathematical sinusoidal functions used, the model uses sine and cosine functions of different frequencies defined as:
+
+* $PE_{(pos, 2i)} = \sin(pos / 10000^{2i/d_{model}})$
+* $PE_{(pos, 2i+1)} = \cos(pos / 10000^{2i/d_{model}})$
+
+where $pos$ is the position and $i$ is the dimension. The wavelengths form a geometric progression from $2\pi$ to $10000 \cdot 2\pi$, and each dimension of the positional encoding corresponds to a sinusoid. 
+
+Additionally, the provided text does not explain why sinusoidal encodings were chosen *over* learned embeddings (in fact, row (E) notes that replacing sinusoidal positional encoding with learned positional embeddings resulted in ""nearly identical results to the base model""). 
+
+Therefore, the provided context does not contain sufficient information to fully answer all parts of the question.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+BGE||LLM1_Qwen||Q3_positional_encoding,Q3_positional_encoding,BGE,LLM1_Qwen,groq,3.03,96.5,92.75,88.4,"Why does the Transformer require positional encodings, what mathematical sinusoidal functions are used to compute them, and why were sinusoidal encodings chosen over learned embeddings?","Since the Transformer contains no recurrence and no convolution, positional encodings must be added to the input embeddings to inject sequence order information. They use sine and cosine functions of different frequencies: PE(pos, 2i) = sin(pos / 10000^(2i/d_model)) and PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model)), with wavelengths forming a geometric progression from 2*pi to 10000*2*pi. Sinusoidal encodings were chosen because they hypothesized it allows the model to attend by relative positions easily (since for any fixed offset k, PE(pos+k) can be represented as a linear function of PE(pos)) and may allow the model to extrapolate to sequence lengths longer than those encountered during training.","Based on the provided context passages, here is the answer to the question:
+
+**Why the Transformer requires positional encodings**
+The provided context does not explicitly state the fundamental reason why the Transformer architecture *requires* positional encodings (e.g., due to the permutation invariance of the self-attention mechanism). However, the text notes that positional encodings are added to the embeddings so that ""the two can be summed,"" and that the model uses them to ""learn to attend by relative positions.""
+
+**Mathematical sinusoidal functions used**
+The Transformer uses sine and cosine functions of different frequencies to compute positional encodings. The specific formulas provided are:
+*   $PE_{(pos, 2i)} = \sin(pos / 10000^{2i/d_{model}})$
+*   $PE_{(pos, 2i+1)} = \cos(pos / 10000^{2i/d_{model}})$
+
+In these equations, $pos$ represents the position and $i$ represents the dimension. Each dimension of the positional encoding corresponds to a sinusoid, with wavelengths forming a geometric progression from $2\pi$ to $10000 \cdot 2\pi$.
+
+**Why sinusoidal encodings were chosen over learned embeddings**
+Sinusoidal encodings were chosen over learned positional embeddings for two primary reasons:
+1.  **Relative Position Attention:** The authors hypothesized that this function would allow the model to easily learn to attend by relative positions, as for any fixed offset $k$, $PE_{pos+k}$ can be represented as a linear function of $PE_{pos}$.
+2.  **Extrapolation:** The sinusoidal version may allow the model to extrapolate to sequence lengths longer than those encountered during training.
+
+The text notes that experiments comparing the two versions produced ""nearly identical results"" (referenced in Table 3 row (E)), but the sinusoidal version was selected for the potential extrapolation benefits.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+BGE||LLM2_GPT_OSS||Q3_positional_encoding,Q3_positional_encoding,BGE,LLM2_GPT_OSS,groq,1.474,96.5,98.25,97.8,"Why does the Transformer require positional encodings, what mathematical sinusoidal functions are used to compute them, and why were sinusoidal encodings chosen over learned embeddings?","Since the Transformer contains no recurrence and no convolution, positional encodings must be added to the input embeddings to inject sequence order information. They use sine and cosine functions of different frequencies: PE(pos, 2i) = sin(pos / 10000^(2i/d_model)) and PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model)), with wavelengths forming a geometric progression from 2*pi to 10000*2*pi. Sinusoidal encodings were chosen because they hypothesized it allows the model to attend by relative positions easily (since for any fixed offset k, PE(pos+k) can be represented as a linear function of PE(pos)) and may allow the model to extrapolate to sequence lengths longer than those encountered during training.","**Why positional encodings are needed**
+
+The Transformer’s self‑attention mechanism is permutation‑invariant: the attention score between two tokens depends only on their content embeddings, not on their order in the sequence.  
+To give the model a sense of token order, a positional encoding vector is added to each token embedding. This supplies the model with the necessary positional information that would otherwise be absent.
+
+**Mathematical form of the sinusoidal encodings**
+
+The positional encoding for position *pos* and dimension *i* is defined as  
+
+\[
+\text{PE}(pos,2i)   = \sin\!\left(\frac{pos}{10000^{\,2i/d_{\text{model}}}}\right), \qquad
+\text{PE}(pos,2i+1) = \cos\!\left(\frac{pos}{10000^{\,2i/d_{\text{model}}}}\right).
+\]
+
+Each dimension corresponds to a sinusoid whose wavelength follows a geometric progression from \(2\pi\) to \(10000 \times 2\pi\) (Passage 2).
+
+**Why sinusoidal encodings were chosen over learned embeddings**
+
+1. **Ease of learning relative positions** – For any fixed offset \(k\), the encoding at position \(pos+k\) can be expressed as a linear function of the encoding at position \(pos\). This property was hypothesized to make it easier for the model to learn relative positional relationships (Passage 1).
+
+2. **Extrapolation to longer sequences** – Because the sinusoidal functions are continuous and defined for any position, the model can generalize to sequence lengths longer than those seen during training (Passage 1).
+
+3. **Empirical comparison** – Experiments replacing the sinusoidal encoding with learned positional embeddings produced nearly identical results (row (E) in the experiments), indicating that the sinusoidal choice does not hurt performance while offering the extrapolation advantage (Passage 3).
+
+Thus, positional encodings are required to provide order information to the Transformer, sinusoidal functions are used as described above, and they were chosen for their theoretical benefits in learning relative positions and extrapolating to unseen sequence lengths, with empirical evidence showing comparable performance to learned embeddings.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+BGE||LLM3_Gemini||Q3_positional_encoding,Q3_positional_encoding,BGE,LLM3_Gemini,gemini,2.06,94.5,88.25,86.4,"Why does the Transformer require positional encodings, what mathematical sinusoidal functions are used to compute them, and why were sinusoidal encodings chosen over learned embeddings?","Since the Transformer contains no recurrence and no convolution, positional encodings must be added to the input embeddings to inject sequence order information. They use sine and cosine functions of different frequencies: PE(pos, 2i) = sin(pos / 10000^(2i/d_model)) and PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model)), with wavelengths forming a geometric progression from 2*pi to 10000*2*pi. Sinusoidal encodings were chosen because they hypothesized it allows the model to attend by relative positions easily (since for any fixed offset k, PE(pos+k) can be represented as a linear function of PE(pos)) and may allow the model to extrapolate to sequence lengths longer than those encountered during training.","Based on the provided context, the exact reasons and mathematical functions are as follows:
+
+* **Mathematical sinusoidal functions used:** 
+  The positional encodings are computed using sine and cosine functions of different frequencies, defined as:
+  * $PE_{(pos, 2i)} = \sin(pos / 10000^{2i/d_{model}})$
+  * $PE_{(pos, 2i+1)} = \cos(pos / 10000^{2i/d_{model}})$
+  Where $pos$ is the position and $i$ is the dimension, forming wavelengths that progress geometrically from $2\pi$ to $10000 \cdot 2\pi$.
+
+* **Why sinusoidal encodings were chosen over learned embeddings:** 
+  Although experiments with learned positional embeddings and the sinusoidal version produced ""nearly identical results"" (as seen in Table 3, row (E)), the sinusoidal version was chosen because the researchers hypothesized it would allow the model to easily learn to attend by relative positions (since for any fixed offset $k$, $PE_{pos+k}$ can be represented as a linear function of $PE_{pos}$) and because it may allow the model to extrapolate to sequence lengths longer than those encountered during training. 
+
+* **Why positional encodings are required:** 
+  The provided context does not contain sufficient information regarding why the Transformer fundamentally requires positional encodings (other than noting that they are used as embeddings so that the two can be summed).",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+Gemini-Emb||LLM1_Qwen||Q3_positional_encoding,Q3_positional_encoding,Gemini-Emb,LLM1_Qwen,groq,21.205,98.5,96.25,97.8,"Why does the Transformer require positional encodings, what mathematical sinusoidal functions are used to compute them, and why were sinusoidal encodings chosen over learned embeddings?","Since the Transformer contains no recurrence and no convolution, positional encodings must be added to the input embeddings to inject sequence order information. They use sine and cosine functions of different frequencies: PE(pos, 2i) = sin(pos / 10000^(2i/d_model)) and PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model)), with wavelengths forming a geometric progression from 2*pi to 10000*2*pi. Sinusoidal encodings were chosen because they hypothesized it allows the model to attend by relative positions easily (since for any fixed offset k, PE(pos+k) can be represented as a linear function of PE(pos)) and may allow the model to extrapolate to sequence lengths longer than those encountered during training.","Based on the provided context passages, here is the answer to the question:
+
+**Why the Transformer requires positional encodings**
+The Transformer model contains no recurrence and no convolution. Consequently, to allow the model to make use of the order of the sequence, information about the relative or absolute position of the tokens must be injected. This is achieved by adding ""positional encodings"" to the input embeddings at the bottoms of the encoder and decoder stacks. The positional encodings have the same dimension ($d_{model}$) as the embeddings, allowing the two to be summed.
+
+**Mathematical sinusoidal functions used**
+The work utilizes sine and cosine functions of different frequencies to compute the positional encodings. The specific formulas are:
+*   $PE_{(pos, 2i)} = \sin(pos / 10000^{2i/d_{model}})$
+*   $PE_{(pos, 2i+1)} = \cos(pos / 10000^{2i/d_{model}})$
+
+In these equations, $pos$ represents the position and $i$ represents the dimension. Each dimension of the positional encoding corresponds to a sinusoid, with wavelengths forming a geometric progression from $2\pi$ to $10000 \cdot 2\pi$.
+
+**Why sinusoidal encodings were chosen over learned embeddings**
+Sinusoidal encodings were chosen for two primary reasons:
+1.  **Relative Position Learning:** The authors hypothesized that this function would allow the model to easily learn to attend by relative positions. This is because, for any fixed offset $k$, $PE_{pos+k}$ can be represented as a linear function of $PE_{pos}$.
+2.  **Extrapolation Capability:** While experiments showed that learned positional embeddings produced nearly identical results to the sinusoidal version (referenced in Table 3 row (E)), the sinusoidal version was selected because it may allow the model to extrapolate to sequence lengths longer than those encountered during training.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+Gemini-Emb||LLM2_GPT_OSS||Q3_positional_encoding,Q3_positional_encoding,Gemini-Emb,LLM2_GPT_OSS,groq,1.704,98.5,96.25,97.8,"Why does the Transformer require positional encodings, what mathematical sinusoidal functions are used to compute them, and why were sinusoidal encodings chosen over learned embeddings?","Since the Transformer contains no recurrence and no convolution, positional encodings must be added to the input embeddings to inject sequence order information. They use sine and cosine functions of different frequencies: PE(pos, 2i) = sin(pos / 10000^(2i/d_model)) and PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model)), with wavelengths forming a geometric progression from 2*pi to 10000*2*pi. Sinusoidal encodings were chosen because they hypothesized it allows the model to attend by relative positions easily (since for any fixed offset k, PE(pos+k) can be represented as a linear function of PE(pos)) and may allow the model to extrapolate to sequence lengths longer than those encountered during training.","**Why positional encodings are needed**  
+The Transformer architecture contains no recurrence and no convolution, so the model has no inherent mechanism to capture the order of tokens in a sequence. To give the model access to positional information, the authors add *positional encodings* to the input embeddings at the bottom of both the encoder and decoder stacks. These encodings have the same dimensionality as the token embeddings (denoted \(d_{\text{model}}\)) so that they can be summed with the embeddings before being fed into the self‑attention layers. (Passage 3)
+
+**Mathematical form of the sinusoidal encodings**  
+The authors use sine and cosine functions of different frequencies to compute the positional encodings:
+
+\[
+\begin{aligned}
+\text{PE}(pos, 2i)   &= \sin\!\left(\frac{pos}{10000^{\,2i/d_{\text{model}}}}\right),\\
+\text{PE}(pos, 2i+1) &= \cos\!\left(\frac{pos}{10000^{\,2i/d_{\text{model}}}}\right),
+\end{aligned}
+\]
+
+where \(pos\) is the token position and \(i\) indexes the dimension.  
+Each dimension of the encoding corresponds to a sinusoid, and the wavelengths form a geometric progression from \(2\pi\) to \(10000 \times 2\pi\). (Passage 1)
+
+**Why sinusoidal encodings were chosen over learned embeddings**  
+The authors experimented with both sinusoidal and learned positional embeddings. The two variants produced nearly identical results (see Table 3, row (E)). However, sinusoidal encodings were preferred because they allow the model to extrapolate to sequence lengths longer than those seen during training, a property that learned embeddings do not provide. (Passage 2)
+
+Thus, positional encodings are required to inject order information into a non‑recurrent, non‑convolutional architecture; the sinusoidal form is defined by the equations above; and sinusoidal encodings were chosen for their extrapolation capability, despite similar empirical performance to learned embeddings.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+Gemini-Emb||LLM3_Gemini||Q3_positional_encoding,Q3_positional_encoding,Gemini-Emb,LLM3_Gemini,gemini,12.469,98.5,96.25,97.8,"Why does the Transformer require positional encodings, what mathematical sinusoidal functions are used to compute them, and why were sinusoidal encodings chosen over learned embeddings?","Since the Transformer contains no recurrence and no convolution, positional encodings must be added to the input embeddings to inject sequence order information. They use sine and cosine functions of different frequencies: PE(pos, 2i) = sin(pos / 10000^(2i/d_model)) and PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model)), with wavelengths forming a geometric progression from 2*pi to 10000*2*pi. Sinusoidal encodings were chosen because they hypothesized it allows the model to attend by relative positions easily (since for any fixed offset k, PE(pos+k) can be represented as a linear function of PE(pos)) and may allow the model to extrapolate to sequence lengths longer than those encountered during training.","Based on the provided context, the answers to your questions are as follows:
+
+* **Why the Transformer requires positional encodings:** Because the model contains no recurrence and no convolution, positional encodings must be injected to allow the model to make use of the order of the sequence (specifically, to inject information about the relative or absolute position of the tokens). They are added to the input embeddings at the bottoms of the encoder and decoder stacks and have the same dimension $d_{model}$ as the embeddings so they can be summed.
+* **Mathematical sinusoidal functions used to compute them:** Sine and cosine functions of different frequencies are used, defined as:
+  $$PE_{(pos, 2i)} = \sin(pos/10000^{2i/d_{model}})$$
+  $$PE_{(pos, 2i+1)} = \cos(pos/10000^{2i/d_{model}})$$
+  where $pos$ is the position and $i$ is the dimension. The wavelengths form a geometric progression from $2\pi$ to $10000 \cdot 2\pi$, and each dimension corresponds to a sinusoid.
+* **Why sinusoidal encodings were chosen over learned embeddings:** Although experiments with learned positional embeddings produced nearly identical results (as seen in Table 3 row (E)), the sinusoidal version was chosen because it may allow the model to extrapolate to sequence lengths longer than the ones encountered during training, and due to the hypothesis that it would allow the model to easily learn to attend by relative positions (since for any fixed offset $k$, $PE_{pos+k}$ can be represented as a linear function of $PE_{pos}$).",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+MiniLM||LLM1_Qwen||Q4_training_hardware_optimizer,Q4_training_hardware_optimizer,MiniLM,LLM1_Qwen,groq,16.802,98.5,99.25,98.75,"What training hardware was used, what were the training step counts and runtimes for the base and big models, and what were the optimizer settings (Adam parameters and learning rate schedule)?","Models were trained on one machine with 8 NVIDIA P100 GPUs. The base model was trained for 100,000 steps taking 0.4 seconds per step (12 hours). The big model was trained for 300,000 steps taking 1.0 second per step (3.5 days). Optimization used Adam with beta1 = 0.9, beta2 = 0.98, and epsilon = 10^-9. The learning rate was varied according to lrate = d_model^(-0.5) * min(step_num^(-0.5), step_num * warmup_steps^(-1.5)) with warmup_steps = 4000.","Based on the provided context passages, the training hardware, step counts, runtimes, and optimizer settings are as follows:
+
+**Training Hardware**
+The models were trained on a single machine equipped with **8 NVIDIA P100 GPUs** [Passage 2].
+
+**Training Step Counts and Runtimes**
+*   **Base Models:**
+    *   **Step Time:** Approximately **0.4 seconds** per training step [Passage 2].
+    *   **Total Steps:** **100,000 steps** [Passage 2].
+    *   **Total Runtime:** **12 hours** [Passage 2].
+*   **Big Models:**
+    *   **Step Time:** **1.0 seconds** per training step [Passage 1, Passage 2].
+    *   **Total Steps:** **300,000 steps** [Passage 1, Passage 2].
+    *   **Total Runtime:** **3.5 days** [Passage 1, Passage 2].
+
+**Optimizer Settings**
+*   **Optimizer:** The **Adam optimizer** was used [Passage 1].
+*   **Hyperparameters:**
+    *   $\beta_1 = 0.9$
+    *   $\beta_2 = 0.98$
+    *   $\epsilon = 10^{-9}$
+    [Passage 1].
+*   **Learning Rate Schedule:**
+    *   The learning rate was varied according to the formula: $lrate = d_{model}^{-0.5} \cdot \min(step\_num^{-0.5}, step\_num \cdot warmup\_steps^{-1.5})$ [Passage 1].
+    *   This schedule involves increasing the learning rate linearly for the first **4,000** training steps ($warmup\_steps = 4000$) and decreasing it thereafter proportionally to the inverse square root of the step number [Passage 1].",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+MiniLM||LLM2_GPT_OSS||Q4_training_hardware_optimizer,Q4_training_hardware_optimizer,MiniLM,LLM2_GPT_OSS,groq,1.5,98.5,100.0,99.2,"What training hardware was used, what were the training step counts and runtimes for the base and big models, and what were the optimizer settings (Adam parameters and learning rate schedule)?","Models were trained on one machine with 8 NVIDIA P100 GPUs. The base model was trained for 100,000 steps taking 0.4 seconds per step (12 hours). The big model was trained for 300,000 steps taking 1.0 second per step (3.5 days). Optimization used Adam with beta1 = 0.9, beta2 = 0.98, and epsilon = 10^-9. The learning rate was varied according to lrate = d_model^(-0.5) * min(step_num^(-0.5), step_num * warmup_steps^(-1.5)) with warmup_steps = 4000.","**Training hardware**  
+- One machine equipped with **8 NVIDIA P100 GPUs**.  
+
+**Training step counts and runtimes**  
+
+| Model | Step time | Total steps | Total runtime |
+|-------|-----------|-------------|---------------|
+| Base | **≈ 0.4 s per step** | **100 000** | **≈ 12 h** |
+| Big | **≈ 1.0 s per step** | **300 000** | **≈ 3.5 days** |
+
+**Optimizer settings**  
+
+- **Adam** optimizer  
+  - β₁ = 0.9  
+  - β₂ = 0.98  
+  - ε = 10⁻⁹  
+
+- **Learning‑rate schedule** (as in Eq. (3))  
+  \[
+  \text{lrate} = d_{\text{model}}^{-0.5}\;
+  \min\!\bigl(step_{\text{num}}^{-0.5},\; step_{\text{num}}\; \text{warmup\_steps}^{-1.5}\bigr)
+  \]
+  - **warmup_steps** = 4000  
+  - The schedule increases the learning rate linearly during the first 4000 steps and then decays it proportionally to the inverse square root of the step number.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+MiniLM||LLM3_Gemini||Q4_training_hardware_optimizer,Q4_training_hardware_optimizer,MiniLM,LLM3_Gemini,gemini,2.188,98.5,99.25,99.1,"What training hardware was used, what were the training step counts and runtimes for the base and big models, and what were the optimizer settings (Adam parameters and learning rate schedule)?","Models were trained on one machine with 8 NVIDIA P100 GPUs. The base model was trained for 100,000 steps taking 0.4 seconds per step (12 hours). The big model was trained for 300,000 steps taking 1.0 second per step (3.5 days). Optimization used Adam with beta1 = 0.9, beta2 = 0.98, and epsilon = 10^-9. The learning rate was varied according to lrate = d_model^(-0.5) * min(step_num^(-0.5), step_num * warmup_steps^(-1.5)) with warmup_steps = 4000.","Based on the provided context, the training details are as follows:
+
+*   **Training Hardware:** The models were trained on one machine with 8 NVIDIA P100 GPUs.
+*   **Base Models (Step Counts and Runtimes):** Each training step took about 0.4 seconds. They were trained for a total of 100,000 steps, which took 12 hours.
+*   **Big Models (Step Counts and Runtimes):** Each training step took 1.0 seconds. They were trained for 300,000 steps, which took 3.5 days.
+*   **Optimizer Settings (Adam parameters):** The Adam optimizer was used with parameters $\beta_1 = 0.9$, $\beta_2 = 0.98$, and $\epsilon = 10^{-9}$.
+*   **Learning Rate Schedule:** The learning rate was varied according to the formula:
+    $$\text{lrate} = d_{\text{model}}^{-0.5} \cdot \min(\text{step\_num}^{-0.5}, \text{step\_num} \cdot \text{warmup\_steps}^{-1.5})$$
+    This corresponds to increasing the learning rate linearly for the first `warmup_steps` (with `warmup_steps = 4000`) training steps, and decreasing it thereafter proportionally to the inverse square root of the step number.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+BGE||LLM1_Qwen||Q4_training_hardware_optimizer,Q4_training_hardware_optimizer,BGE,LLM1_Qwen,groq,22.19,98.5,99.25,98.75,"What training hardware was used, what were the training step counts and runtimes for the base and big models, and what were the optimizer settings (Adam parameters and learning rate schedule)?","Models were trained on one machine with 8 NVIDIA P100 GPUs. The base model was trained for 100,000 steps taking 0.4 seconds per step (12 hours). The big model was trained for 300,000 steps taking 1.0 second per step (3.5 days). Optimization used Adam with beta1 = 0.9, beta2 = 0.98, and epsilon = 10^-9. The learning rate was varied according to lrate = d_model^(-0.5) * min(step_num^(-0.5), step_num * warmup_steps^(-1.5)) with warmup_steps = 4000.","Based on the provided context passages, the training hardware, step counts, runtimes, and optimizer settings are as follows:
+
+**Training Hardware**
+The models were trained on a single machine equipped with **8 NVIDIA P100 GPUs**.
+
+**Training Step Counts and Runtimes**
+*   **Base Models:**
+    *   **Step Time:** Approximately **0.4 seconds** per step.
+    *   **Total Steps:** **100,000 steps**.
+    *   **Total Runtime:** **12 hours**.
+*   **Big Models:**
+    *   **Step Time:** **1.0 seconds** per step.
+    *   **Total Steps:** **300,000 steps**.
+    *   **Total Runtime:** **3.5 days**.
+
+**Optimizer Settings**
+*   **Optimizer:** Adam optimizer.
+*   **Parameters:**
+    *   $\beta_1 = 0.9$
+    *   $\beta_2 = 0.98$
+    *   $\epsilon = 10^{-9}$
+*   **Learning Rate Schedule:**
+    *   The learning rate ($lrate$) was varied according to the formula: $lrate = d_{model}^{-0.5} \cdot \min(step\_num^{-0.5}, step\_num \cdot warmup\_steps^{-1.5})$.
+    *   This schedule increases the learning rate linearly for the first **4,000** training steps ($warmup\_steps = 4000$) and then decreases it proportionally to the inverse square root of the step number.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+BGE||LLM2_GPT_OSS||Q4_training_hardware_optimizer,Q4_training_hardware_optimizer,BGE,LLM2_GPT_OSS,groq,2.079,98.5,100.0,99.2,"What training hardware was used, what were the training step counts and runtimes for the base and big models, and what were the optimizer settings (Adam parameters and learning rate schedule)?","Models were trained on one machine with 8 NVIDIA P100 GPUs. The base model was trained for 100,000 steps taking 0.4 seconds per step (12 hours). The big model was trained for 300,000 steps taking 1.0 second per step (3.5 days). Optimization used Adam with beta1 = 0.9, beta2 = 0.98, and epsilon = 10^-9. The learning rate was varied according to lrate = d_model^(-0.5) * min(step_num^(-0.5), step_num * warmup_steps^(-1.5)) with warmup_steps = 4000.","**Training hardware**  
+- One machine equipped with **8 NVIDIA P100 GPUs** (TFLOPS: 9.5 TFLOPS per P100)【Passage 3】.  
+
+**Training schedule**  
+
+| Model | Step time | Total steps | Total runtime |
+|-------|-----------|-------------|---------------|
+| Base | ~0.4 s per step | 100 000 steps | 12 h |
+| Big | ~1.0 s per step | 300 000 steps | 3.5 days【Passage 1】 |
+
+**Optimizer settings**  
+
+- Optimizer: **Adam**【Passage 2】  
+  - β₁ = **0.9**  
+  - β₂ = **0.98**  
+  - ε = **10⁻⁹**  
+
+- Learning‑rate schedule (as in the paper)【Passage 2】  
+  \[
+  \text{lrate} = d^{-0.5}_{\text{model}} \times \min\!\left(step_{\text{num}}^{-0.5},\; step_{\text{num}}\times warmup_{\text{steps}}^{-1.5}\right)
+  \]
+  - **warmup_steps** = **4000**  
+  - The schedule increases the learning rate linearly during the first 4000 steps and then decreases it proportionally to the inverse square root of the step number.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+BGE||LLM3_Gemini||Q4_training_hardware_optimizer,Q4_training_hardware_optimizer,BGE,LLM3_Gemini,gemini,2.173,98.5,99.25,98.75,"What training hardware was used, what were the training step counts and runtimes for the base and big models, and what were the optimizer settings (Adam parameters and learning rate schedule)?","Models were trained on one machine with 8 NVIDIA P100 GPUs. The base model was trained for 100,000 steps taking 0.4 seconds per step (12 hours). The big model was trained for 300,000 steps taking 1.0 second per step (3.5 days). Optimization used Adam with beta1 = 0.9, beta2 = 0.98, and epsilon = 10^-9. The learning rate was varied according to lrate = d_model^(-0.5) * min(step_num^(-0.5), step_num * warmup_steps^(-1.5)) with warmup_steps = 4000.","Based on the provided context, the training details are as follows:
+
+* **Training Hardware:** The models were trained on one machine equipped with 8 NVIDIA P100 GPUs.
+* **Base Models:** Trained for a total of 100,000 steps, with each training step taking about 0.4 seconds, resulting in a total training time of 12 hours.
+* **Big Models:** Trained for 300,000 steps, with each step taking 1.0 second, resulting in a total training time of 3.5 days.
+* **Optimizer Settings (Adam parameters):** The Adam optimizer was used with $\beta_1 = 0.9$, $\beta_2 = 0.98$, and $\epsilon = 10^{-9}$.
+* **Learning Rate Schedule:** The learning rate was varied according to the formula: 
+  $$\text{lrate} = d_{\text{model}}^{-0.5} \cdot \min(\text{step\_num}^{-0.5}, \text{step\_num} \cdot \text{warmup\_steps}^{-1.5})$$
+  This increased the learning rate linearly for the first $\text{warmup\_steps} = 4000$ training steps and decreased it thereafter proportionally to the inverse square root of the step number.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+Gemini-Emb||LLM1_Qwen||Q4_training_hardware_optimizer,Q4_training_hardware_optimizer,Gemini-Emb,LLM1_Qwen,groq,8.749,98.5,100.0,99.2,"What training hardware was used, what were the training step counts and runtimes for the base and big models, and what were the optimizer settings (Adam parameters and learning rate schedule)?","Models were trained on one machine with 8 NVIDIA P100 GPUs. The base model was trained for 100,000 steps taking 0.4 seconds per step (12 hours). The big model was trained for 300,000 steps taking 1.0 second per step (3.5 days). Optimization used Adam with beta1 = 0.9, beta2 = 0.98, and epsilon = 10^-9. The learning rate was varied according to lrate = d_model^(-0.5) * min(step_num^(-0.5), step_num * warmup_steps^(-1.5)) with warmup_steps = 4000.","Based on the provided context passages, the training hardware, schedules, and optimizer settings are as follows:
+
+**Training Hardware**
+The models were trained on a single machine equipped with **8 NVIDIA P100 GPUs** (Passage 2).
+
+**Training Step Counts and Runtimes**
+*   **Base Models:**
+    *   **Step Time:** Approximately **0.4 seconds** per step (Passage 2).
+    *   **Total Steps:** **100,000 steps** (Passage 2).
+    *   **Total Runtime:** **12 hours** (Passage 2).
+*   **Big Models:**
+    *   **Step Time:** **1.0 seconds** per step (Passages 1 and 2).
+    *   **Total Steps:** **300,000 steps** (Passages 1 and 2).
+    *   **Total Runtime:** **3.5 days** (Passages 1 and 2).
+
+**Optimizer Settings**
+*   **Optimizer:** **Adam** (Passage 1).
+*   **Parameters:**
+    *   $\beta_1 = 0.9$
+    *   $\beta_2 = 0.98$
+    *   $\epsilon = 10^{-9}$
+    (Passage 1)
+*   **Learning Rate Schedule:**
+    The learning rate ($lrate$) was varied according to the formula:
+    $$lrate = d_{model}^{-0.5} \cdot \min(step\_num^{-0.5}, step\_num \cdot warmup\_steps^{-1.5})$$
+    (Passage 1)
+    This schedule involves:
+    1.  **Linear increase** of the learning rate for the first **4,000** training steps ($warmup\_steps = 4000$).
+    2.  **Decrease** proportional to the inverse square root of the step number thereafter.
+    (Passages 1 and 3)",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+Gemini-Emb||LLM2_GPT_OSS||Q4_training_hardware_optimizer,Q4_training_hardware_optimizer,Gemini-Emb,LLM2_GPT_OSS,groq,1.558,98.5,100.0,99.2,"What training hardware was used, what were the training step counts and runtimes for the base and big models, and what were the optimizer settings (Adam parameters and learning rate schedule)?","Models were trained on one machine with 8 NVIDIA P100 GPUs. The base model was trained for 100,000 steps taking 0.4 seconds per step (12 hours). The big model was trained for 300,000 steps taking 1.0 second per step (3.5 days). Optimization used Adam with beta1 = 0.9, beta2 = 0.98, and epsilon = 10^-9. The learning rate was varied according to lrate = d_model^(-0.5) * min(step_num^(-0.5), step_num * warmup_steps^(-1.5)) with warmup_steps = 4000.","**Training hardware**  
+- One machine equipped with **8 NVIDIA P100 GPUs**.  
+
+**Training step counts and runtimes**  
+
+| Model | Step time | Total steps | Total runtime |
+|-------|-----------|-------------|---------------|
+| Base | **≈ 0.4 s per step** | **100 000 steps** | **≈ 12 h** |
+| Big | **≈ 1.0 s per step** | **300 000 steps** | **≈ 3.5 days** |
+
+**Optimizer settings**  
+
+- **Optimizer**: Adam  
+- **Hyper‑parameters**:  
+  - β₁ = 0.9  
+  - β₂ = 0.98  
+  - ε = 10⁻⁹  
+- **Learning‑rate schedule** (Equation (3) in the paper):  
+
+\[
+\text{lrate} = d^{-0.5}_{\text{model}} \times \min\!\bigl(step_{\text{num}}^{-0.5},\; step_{\text{num}}\times warmup_{\text{steps}}^{-1.5}\bigr)
+\]
+
+  - The learning rate increases linearly during the first **warmup_steps = 4000** training steps and then decreases proportionally to the inverse square root of the step number.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+Gemini-Emb||LLM3_Gemini||Q4_training_hardware_optimizer,Q4_training_hardware_optimizer,Gemini-Emb,LLM3_Gemini,gemini,1.62,98.5,99.25,99.8,"What training hardware was used, what were the training step counts and runtimes for the base and big models, and what were the optimizer settings (Adam parameters and learning rate schedule)?","Models were trained on one machine with 8 NVIDIA P100 GPUs. The base model was trained for 100,000 steps taking 0.4 seconds per step (12 hours). The big model was trained for 300,000 steps taking 1.0 second per step (3.5 days). Optimization used Adam with beta1 = 0.9, beta2 = 0.98, and epsilon = 10^-9. The learning rate was varied according to lrate = d_model^(-0.5) * min(step_num^(-0.5), step_num * warmup_steps^(-1.5)) with warmup_steps = 4000.","Based on the provided context, the training details are as follows:
+
+* **Training Hardware:** Models were trained on one machine with 8 NVIDIA P100 GPUs.
+* **Base Models:** Each training step took about 0.4 seconds. They were trained for a total of 100,000 steps, which took 12 hours.
+* **Big Models:** Each training step took 1.0 second. They were trained for 300,000 steps, which took 3.5 days.
+* **Optimizer Settings (Adam parameters):** The Adam optimizer was used with $\beta_1 = 0.9$, $\beta_2 = 0.98$, and $\epsilon = 10^{-9}$.
+* **Learning Rate Schedule:** The learning rate was varied according to the formula: 
+  $\text{lrate} = d_{\text{model}}^{-0.5} \cdot \min(\text{step\_num}^{-0.5}, \text{step\_num} \cdot \text{warmup\_steps}^{-1.5})$. 
+  This corresponds to increasing the learning rate linearly for the first $\text{warmup\_steps} = 4000$ training steps, and decreasing it thereafter proportionally to the inverse square root of the step number.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+MiniLM||LLM1_Qwen||Q5_wmt_translation_results,Q5_wmt_translation_results,MiniLM,LLM1_Qwen,groq,25.122,96.5,75.0,82.4,"What empirical BLEU scores did the Transformer (base and big models) achieve on the WMT 2014 English-to-German and English-to-French translation tasks, and how did its training FLOPs compare to prior models?","On the WMT 2014 English-to-German task, the big Transformer established a new state-of-the-art BLEU score of 28.4 (outperforming the best previous models by more than 2.0 BLEU), while the base model achieved 27.3 BLEU. On the WMT 2014 English-to-French task, the big model achieved a state-of-the-art BLEU score of 41.8 (41.0 for single model), outperforming all previous single models and ensembles at a fraction of the training cost (2.3 * 10^19 FLOPs, over an order of magnitude lower training cost than competing models like ConvS2S and MoE).","Based on the provided context passages, the empirical BLEU scores and training cost comparisons are as follows:
+
+**WMT 2014 English-to-German Translation Task:**
+*   **BLEU Score:** The model achieved a BLEU score of **28.4** (Passage 2). Another section notes that the ""big transformer model"" outperformed the best previously reported models (including ensembles) by more than **2.0** BLEU (Passage 3).
+*   **Training Cost:** The context states the model requires ""significantly less time to train"" (Passage 2) but does not provide specific FLOPs metrics for this task.
+
+**WMT 2014 English-to-French Translation Task:**
+*   **BLEU Scores:**
+    *   One passage reports the ""big model"" achieved a BLEU score of **41.0** (Passage 1).
+    *   Another passage reports the model established a new single-model state-of-the-art BLEU score of **41.8** (Passage 2).
+*   **Training Cost Comparison:**
+    *   The ""big model"" was trained at **less than 1/4 the training cost** of the previous state-of-the-art model (Passage 1).
+    *   The model achieving the 41.8 BLEU score was trained for **3.5 days on eight GPUs**, described as ""a small fraction of the training costs of the best models from the literature"" (Passage 2).
+
+**Note on FLOPs:** The provided text explicitly mentions ""training cost"" and ""time to train"" but does not contain specific numerical metrics for **FLOPs** (Floating Point Operations). Therefore, a direct comparison of FLOPs cannot be made using only the provided text.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+MiniLM||LLM2_GPT_OSS||Q5_wmt_translation_results,Q5_wmt_translation_results,MiniLM,LLM2_GPT_OSS,groq,1.902,92.5,75.0,68.4,"What empirical BLEU scores did the Transformer (base and big models) achieve on the WMT 2014 English-to-German and English-to-French translation tasks, and how did its training FLOPs compare to prior models?","On the WMT 2014 English-to-German task, the big Transformer established a new state-of-the-art BLEU score of 28.4 (outperforming the best previous models by more than 2.0 BLEU), while the base model achieved 27.3 BLEU. On the WMT 2014 English-to-French task, the big model achieved a state-of-the-art BLEU score of 41.8 (41.0 for single model), outperforming all previous single models and ensembles at a fraction of the training cost (2.3 * 10^19 FLOPs, over an order of magnitude lower training cost than competing models like ConvS2S and MoE).","**Empirical BLEU scores**
+
+| Task | Model | BLEU |
+|------|-------|------|
+| WMT 2014 English → French | **Transformer (big)** | **41.0** BLEU【Passage 1】 |
+| WMT 2014 English → German | **Transformer (big)** | **28.4** BLEU【Passage 2】 |
+
+The passage does not provide explicit BLEU scores for the **Transformer (base)** models on either task, so that information is not available in the supplied context.
+
+**Training FLOPs comparison**
+
+* For the English → French task, the Transformer (big) model was trained at **less than ¼ of the training cost (FLOPs)** of the previous state‑of‑the‑art single‑model baseline【Passage 1】.  
+* The same passage notes that the model was trained for only 3.5 days on eight GPUs, a **small fraction of the training costs** of the best models reported in the literature【Passage 2】.  
+
+Thus, the Transformer (big) achieved the reported BLEU scores while requiring markedly fewer floating‑point operations than earlier single‑model approaches. The base‑model FLOPs are not quantified in the provided passages.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+MiniLM||LLM3_Gemini||Q5_wmt_translation_results,Q5_wmt_translation_results,MiniLM,LLM3_Gemini,gemini,1.786,96.5,85.25,78.4,"What empirical BLEU scores did the Transformer (base and big models) achieve on the WMT 2014 English-to-German and English-to-French translation tasks, and how did its training FLOPs compare to prior models?","On the WMT 2014 English-to-German task, the big Transformer established a new state-of-the-art BLEU score of 28.4 (outperforming the best previous models by more than 2.0 BLEU), while the base model achieved 27.3 BLEU. On the WMT 2014 English-to-French task, the big model achieved a state-of-the-art BLEU score of 41.8 (41.0 for single model), outperforming all previous single models and ensembles at a fraction of the training cost (2.3 * 10^19 FLOPs, over an order of magnitude lower training cost than competing models like ConvS2S and MoE).","Based on the provided context, the empirical BLEU scores and training details are as follows:
+
+* **WMT 2014 English-to-German translation task:** The model achieves a BLEU score of **28.4** (outperforming existing best results, including ensembles, by over 2 BLEU). 
+* **WMT 2014 English-to-French translation task:** The ""big"" model achieves a BLEU score of **41.0** at less than 1/4 the training cost of the previous state-of-the-art model (Passage 1). Additionally, Passage 2 notes that the model establishes a new single-model state-of-the-art BLEU score of **41.8** after training for 3.5 days on eight GPUs, which is ""a small fraction of the training costs of the best models from the literature.""
+
+Regarding specific numerical FLOPs, the provided context does not contain sufficient information to answer the question about how its training FLOPs compared to prior models (it only mentions training cost in terms of time/hardware and ""less than 1/4 the training cost"" or ""a small fraction of the training costs"").",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+BGE||LLM1_Qwen||Q5_wmt_translation_results,Q5_wmt_translation_results,BGE,LLM1_Qwen,groq,22.479,96.5,85.25,78.4,"What empirical BLEU scores did the Transformer (base and big models) achieve on the WMT 2014 English-to-German and English-to-French translation tasks, and how did its training FLOPs compare to prior models?","On the WMT 2014 English-to-German task, the big Transformer established a new state-of-the-art BLEU score of 28.4 (outperforming the best previous models by more than 2.0 BLEU), while the base model achieved 27.3 BLEU. On the WMT 2014 English-to-French task, the big model achieved a state-of-the-art BLEU score of 41.8 (41.0 for single model), outperforming all previous single models and ensembles at a fraction of the training cost (2.3 * 10^19 FLOPs, over an order of magnitude lower training cost than competing models like ConvS2S and MoE).","Based on the provided context passages, the empirical BLEU scores and training cost comparisons are as follows:
+
+**WMT 2014 English-to-German Translation Task:**
+*   **BLEU Score:** The model achieved a BLEU score of **28.4**.
+*   **Performance Comparison:** This score outperformed the best previously reported models, including ensembles, by more than **2.0 BLEU** (or ""over 2 BLEU"").
+*   **Training Cost:** The training took **3.5 days on 8 P100 GPUs**. The text notes that the base model surpasses all previously published models and ensembles ""at a fraction of the training cost of any of the competitive models.""
+
+**WMT 2014 English-to-French Translation Task:**
+*   **BLEU Scores:**
+    *   One passage states the model establishes a new single-model state-of-the-art BLEU score of **41.8** after training for 3.5 days on eight GPUs.
+    *   Another passage states the ""big model"" achieves a BLEU score of **41.0**.
+*   **Performance Comparison:** The score of 41.0 outperformed all previously published single models.
+*   **Training Cost:** The training cost was **less than 1/4** of the training cost of the previous state-of-the-art model. It is also described as ""a small fraction of the training costs of the best models from the literature.""
+
+**Note on FLOPs:**
+The provided context does not explicitly state the training FLOPs (Floating Point Operations) for the Transformer models or prior models. It only provides qualitative comparisons regarding training cost (e.g., ""less than 1/4 the training cost,"" ""fraction of the training cost"") and specific hardware/time metrics (3.5 days on 8 P100 GPUs). Therefore, specific FLOP values cannot be cited from the text.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+BGE||LLM2_GPT_OSS||Q5_wmt_translation_results,Q5_wmt_translation_results,BGE,LLM2_GPT_OSS,groq,2.08,82.5,75.0,68.4,"What empirical BLEU scores did the Transformer (base and big models) achieve on the WMT 2014 English-to-German and English-to-French translation tasks, and how did its training FLOPs compare to prior models?","On the WMT 2014 English-to-German task, the big Transformer established a new state-of-the-art BLEU score of 28.4 (outperforming the best previous models by more than 2.0 BLEU), while the base model achieved 27.3 BLEU. On the WMT 2014 English-to-French task, the big model achieved a state-of-the-art BLEU score of 41.8 (41.0 for single model), outperforming all previous single models and ensembles at a fraction of the training cost (2.3 * 10^19 FLOPs, over an order of magnitude lower training cost than competing models like ConvS2S and MoE).","We need to answer: ""What empirical BLEU scores did the Transformer (base and big models) achieve on the WMT 2014 English-to-German and English-to-French translation tasks, and how did its training FLOPs compare to prior models?"" We must use only provided context passages. Let's examine passages for BLEU scores and FLOPs.
+
+Passage 1: mentions big model achieves BLEU 41.0 on WMT 2014 English-to-French. Also says ""outperforming all of the previously published single models, at less than 1/4 the training cost of the previous state-of-the-art model."" That indicates training cost but not FLOPs. It says dropout rate Pdrop=0.1 instead of 0.3. For base models, single model obtained by averaging last 5 checkpoints; for big models, averaged last 20 checkpoints.
+
+Passage 2: mentions model achieves 28.4 BLEU on WMT 2014 English-to-German, improving over existing best results by over 2 BLEU. On WMT 2014 English-to-French, new single-model state-of-the-art BLEU 41.8 after training for 3.5 days on eight GPUs, a small fraction of training costs of best models. Also says Transformer generalizes to other tasks.
+
+Passage 3: mentions ""outperforms the best previously reported models (including ensembles) by more than 2.0 BLEU, establishing a new state-of-the-art BLEU score of 28.4."" That is same as passage 2. It says configuration listed in bottom line of Table 3. Training took 3.5 days on 8 P100 GPUs. Even base model surpasses all previously published models and ensembles, at a fraction of training cost. On WMT 2014 English-to-French, big model achieves BLEU 41.0.
+
+So we have BLEU scores: English-to-German: 28.4 (both base and big? Actually passage 2 says ""our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over existing best results, including ensembles, by over 2 BLEU."" It doesn't specify base or big. But earlier passage 1 says big model achieves 41.0 on English-to-French. So we need to answer for base and big models. The passages mention base model and big model for English-to-French: big model 41.0, base model surpasses all previously published models and ensembles at fraction of training cost. But no numeric BLEU for base model on English-to-French. However passage 2 says new single-model state-of-the-art BLEU 41.8 after training for 3.5 days on eight GPUs. That might refer to big model? It says ""our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs"". That likely refers to big model. But earlier passage 1 says big model achieves 41.0. There's discrepancy: 41.0 vs 41.8. Which is correct? The question: ""What empirical BLEU scores did the Transformer (base and big models) achieve on the WMT 2014 English-to-German and English-to-French translation tasks, and how did its training FLOPs compare to prior models?"" We need to provide BLEU scores for base and big models on both tasks. The passages provide: big model 41.0 on English-to-French; base model surpasses all previously published models and ensembles at fraction of training cost. But no numeric. For English-to-German: 28.4 BLEU. It doesn't specify base or big. But maybe base model achieved 28.4? The passage 3 says ""our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over existing best results by over 2 BLEU."" That might refer to base model? It says ""our model"" but earlier context says ""our base model surpasses all previously published models and ensembles"". So likely base model achieved 28.4. But we need to be precise: The passages don't explicitly state base vs big for German. But we can say that the Transformer achieved 28.4 BLEU on English-to-German (likely base). For English-to-French, big model achieved 41.0 BLEU (and maybe 41.8 in another passage). The question also asks about training FLOPs compared to prior models. Passage 1 says ""at less than 1/4 the training cost of the previous state-of-the-art model."" That indicates training cost in FLOPs? It says training cost, not FLOPs. But we can interpret training cost as FLOPs. So we can say training FLOPs were less than 1/4 of prior models. Also passage 2 says ""after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature."" So training cost is small fraction. But we need to mention FLOPs. The passages don't give explicit FLOPs numbers. So we can state that training FLOPs were less than 1/4 of prior models. That is the only numeric. So answer: base model: 28.4 BLEU on English-to-German; big model: 41.0 BLEU on English-to-French. Training FLOPs: less than 1/4 of prior state-of-the-art. Also mention that training cost was a small fraction. Provide citations.
+
+We must cite specific passages. Use [Passage 1] for 41.0 and training cost less than 1/4. Use [Passage 2]",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+BGE||LLM3_Gemini||Q5_wmt_translation_results,Q5_wmt_translation_results,BGE,LLM3_Gemini,gemini,1.91,96.5,85.25,72.4,"What empirical BLEU scores did the Transformer (base and big models) achieve on the WMT 2014 English-to-German and English-to-French translation tasks, and how did its training FLOPs compare to prior models?","On the WMT 2014 English-to-German task, the big Transformer established a new state-of-the-art BLEU score of 28.4 (outperforming the best previous models by more than 2.0 BLEU), while the base model achieved 27.3 BLEU. On the WMT 2014 English-to-French task, the big model achieved a state-of-the-art BLEU score of 41.8 (41.0 for single model), outperforming all previous single models and ensembles at a fraction of the training cost (2.3 * 10^19 FLOPs, over an order of magnitude lower training cost than competing models like ConvS2S and MoE).","Based on the provided context:
+
+* **English-to-German translation task:** The model achieves a BLEU score of 28.4 (establishing a new state-of-the-art score that improves over existing best results, including ensembles, by over 2 BLEU). 
+* **English-to-French translation task:** The big model achieves a BLEU score of 41.0 in one passage (Passage 1 and Passage 3), while another passage states the model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs (Passage 2). 
+* **Training cost/FLOPs comparison:** The provided context does not explicitly mention training FLOPs. It only states that the big model achieves a BLEU score of 41.0 ""at less than 1/4 the training cost of the previous state-of-the-art model"" (Passage 1), and that the model achieves 28.4 BLEU and 41.8 BLEU after training for 3.5 days on eight GPUs (or eight P100 GPUs), which is ""a small fraction of the training costs of the best models from the literature"" / ""a fraction of the training cost of any of the competitive models"" (Passages 2 and 3).",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+Gemini-Emb||LLM1_Qwen||Q5_wmt_translation_results,Q5_wmt_translation_results,Gemini-Emb,LLM1_Qwen,groq,15.455,92.5,85.0,88.2,"What empirical BLEU scores did the Transformer (base and big models) achieve on the WMT 2014 English-to-German and English-to-French translation tasks, and how did its training FLOPs compare to prior models?","On the WMT 2014 English-to-German task, the big Transformer established a new state-of-the-art BLEU score of 28.4 (outperforming the best previous models by more than 2.0 BLEU), while the base model achieved 27.3 BLEU. On the WMT 2014 English-to-French task, the big model achieved a state-of-the-art BLEU score of 41.8 (41.0 for single model), outperforming all previous single models and ensembles at a fraction of the training cost (2.3 * 10^19 FLOPs, over an order of magnitude lower training cost than competing models like ConvS2S and MoE).","Based on the provided context passages, the empirical BLEU scores and training costs for the Transformer models are as follows:
+
+**English-to-German (WMT 2014)**
+*   **BLEU Score:** The Transformer achieved a new state-of-the-art BLEU score of **28.4**. The text notes that this outperforms the best previously reported models (including ensembles) by more than 2.0 BLEU.
+*   **Training Cost:** The specific FLOPs for the Transformer's English-to-German task are not explicitly listed in the provided text. However, the text states that the base model surpasses all previously published models and ensembles ""at a fraction of the training cost of any of the competitive models."" For comparison, prior models listed in Table 2 had training costs ranging from **9.6 · 10¹⁸** (ConvS2S) to **8.0 · 10²⁰** (Deep-Att + PosUnk Ensemble) FLOPs.
+
+**English-to-French (WMT 2014)**
+*   **BLEU Score:** The Transformer (big) model achieved a BLEU score of **41.0**. This outperformed all previously published single models.
+*   **Training Cost:** The training cost was **less than 1/4** the training cost of the previous state-of-the-art model. For comparison, prior models listed in Table 2 had training costs ranging from **1.2 · 10²⁰** (MoE) to **1.1 · 10²¹** (GNMT + RL Ensemble) FLOPs.
+
+**Additional Methodological Details:**
+*   The Transformer (big) model for English-to-French used a dropout rate ($P_{drop}$) of **0.1**, whereas the base models used **0.3**.
+*   For the base models, the final model was obtained by averaging the last **5** checkpoints (written at 10-minute intervals).
+*   For the big models, the final model was obtained by averaging the last **20** checkpoints.
+*   The English-to-German training took **3.5 days** on **8 P100 GPUs**.",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+Gemini-Emb||LLM2_GPT_OSS||Q5_wmt_translation_results,Q5_wmt_translation_results,Gemini-Emb,LLM2_GPT_OSS,groq,1.853,82.5,75.25,45.6,"What empirical BLEU scores did the Transformer (base and big models) achieve on the WMT 2014 English-to-German and English-to-French translation tasks, and how did its training FLOPs compare to prior models?","On the WMT 2014 English-to-German task, the big Transformer established a new state-of-the-art BLEU score of 28.4 (outperforming the best previous models by more than 2.0 BLEU), while the base model achieved 27.3 BLEU. On the WMT 2014 English-to-French task, the big model achieved a state-of-the-art BLEU score of 41.8 (41.0 for single model), outperforming all previous single models and ensembles at a fraction of the training cost (2.3 * 10^19 FLOPs, over an order of magnitude lower training cost than competing models like ConvS2S and MoE).","We need to answer: What empirical BLEU scores did the Transformer (base and big models) achieve on the WMT 2014 English-to-German and English-to-French translation tasks, and how did its training FLOPs compare to prior models?
+
+We must use only provided context passages. Let's parse them.
+
+Passage 1: Table 2: The Transformer achieves better BLEU scores than previous state-of-the-art models on the English-to-German and English-to-French newstest2014 tests at a fraction of the training cost. It lists models and BLEU scores and training cost (FLOPs). The table shows:
+
+Model | BLEU EN-DE | EN-FR | Training Cost (FLOPs) EN-DE | EN-FR
+
+ByteNet [18] 23.75 (only EN-DE?) Actually table shows ByteNet 23.75 (maybe EN-DE). Deep-Att + PosUnk [39] 39.2 1.0 · 1020 (maybe EN-DE 39.2, EN-FR 1.0? Wait formatting is messed). Let's interpret: The table likely has columns: Model, BLEU EN-DE, BLEU EN-FR, Training Cost (FLOPs) EN-DE, Training Cost (FLOPs) EN-FR. But the numbers are misaligned. Let's read carefully:
+
+Table 2: The Transformer achieves better BLEU scores than previous state-of-the-art models on the English-to-German and English-to-French newstest2014 tests at a fraction of the training cost.
+
+Model
+BLEU Training Cost (FLOPs)
+EN-DE EN-FR EN-DE EN-FR
+ByteNet [18] 23.75
+Deep-Att + PosUnk [39] 39.2 1.0 · 1020
+GNMT + RL [38] 24.6 39.92 2.3 · 1019 1.4 · 1020
+ConvS2S [9] 25.16 40.46 9.6 · 1018 1.5 · 1020
+MoE [32] 26.03 40.56 2.0 · 1019 1.2 · 1020
+Deep-Att + PosUnk Ensemble [39] 40.4 8.0 · 1020
+GNMT + RL Ensemble [38] 26.30 41.16 1.8 · 1020 1.1 · 1021
+
+This is garbled. But we can glean that Transformer (base and big) achieved BLEU scores of 28.4 (maybe EN-DE) and 41.0 (EN-FR). The passage 3 says: ""In Table 2) outperforms the best previously reported models (including ensembles) by more than 2.0 BLEU, establishing a new state-of-the-art BLEU score of 28.4. The configuration of this model is listed in the bottom line of Table 3. Training took 3.5 days on 8 P100 GPUs. Even our base model surpasses all previously published models and ensembles, at a fraction of the training cost of any of the competitive models. On the WMT 2014 English-to-French translation task, our big model achieves a BLEU score of 41.0,""
+
+Thus, base model BLEU 28.4 on EN-DE? Wait 28.4 is likely EN-DE. The big model BLEU 41.0 on EN-FR. But we need both base and big for both tasks. The passage 2 says: ""On the WMT 2014 English-to-French translation task, our big model achieves a BLEU score of 41.0, outperforming all of the previously published single models, at less than 1/4 the training cost of the previous state-of-the-art model. The Transformer (big) model trained for English-to-French used dropout rate Pdrop = 0.1, instead of 0.3. For the base models, we used a single model obtained by averaging the last 5 checkpoints, which were written at 10-minute intervals. For the big models, we averaged the last 20 checkpoints.""
+
+But we don't have base model BLEU for EN-FR. The base model might be 39.2? Wait Deep-Att + PosUnk had 39.2? But that's not Transformer. The Transformer base model might have BLEU 28.4 on EN-DE and maybe 39.2 on EN-FR? But we need to rely on context. The only explicit BLEU scores for Transformer are 28.4 (EN-DE) and 41.0 (EN-FR). The base model's BLEU for EN-FR is not given. But maybe the base model is 28.4 for EN-DE and 39.2 for EN-FR? Let's examine passage 1 again: The table shows ""Deep-Att + PosUnk [39] 39.2 1.0 · 1020"". That seems like Deep-Att + PosUnk has BLEU 39.2 for EN-DE? Actually 39.2 is high for EN-DE. But the table might be misaligned. Let's parse: The table header: ""Model BLEU Training Cost (FLOPs) EN-DE EN-FR EN-DE EN-FR"". So first column after Model is BLEU EN-DE, second column is BLEU EN-FR, third column is Training Cost EN-DE, fourth column is Training Cost EN-FR. So for ByteNet [18] 23.75 (maybe only EN-DE). For Deep-Att + PosUnk [39]",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
+Gemini-Emb||LLM3_Gemini||Q5_wmt_translation_results,Q5_wmt_translation_results,Gemini-Emb,LLM3_Gemini,gemini,3.983,96.5,88.25,82.4,"What empirical BLEU scores did the Transformer (base and big models) achieve on the WMT 2014 English-to-German and English-to-French translation tasks, and how did its training FLOPs compare to prior models?","On the WMT 2014 English-to-German task, the big Transformer established a new state-of-the-art BLEU score of 28.4 (outperforming the best previous models by more than 2.0 BLEU), while the base model achieved 27.3 BLEU. On the WMT 2014 English-to-French task, the big model achieved a state-of-the-art BLEU score of 41.8 (41.0 for single model), outperforming all previous single models and ensembles at a fraction of the training cost (2.3 * 10^19 FLOPs, over an order of magnitude lower training cost than competing models like ConvS2S and MoE).","Based on the provided context, the empirical BLEU scores and training costs (FLOPs) are as follows:
+
+* **English-to-German (EN-DE):** The Transformer achieved a new state-of-the-art BLEU score of **28.4** (as noted for the model configuration in the bottom line of Table 3/Table 2), which outperforms the best previously reported models and ensembles by more than 2.0 BLEU. Prior models listed in Table 2 achieved the following EN-DE BLEU scores: ByteNet (23.75), GNMT + RL (24.6), ConvS2S (25.16), MoE (26.03), and GNMT + RL Ensemble (26.30). 
+* **English-to-French (EN-FR):** The Transformer big model achieved a BLEU score of **41.0** on the WMT 2014 English-to-French translation task, outperforming all previously published single models. Prior EN-FR single/ensemble models listed in Table 2 achieved: Deep-Att + PosUnk (39.2), GNMT + RL (39.92), ConvS2S (40.46), MoE (40.56), Deep-Att + PosUnk Ensemble (40.4), and GNMT + RL Ensemble (41.16).
+
+**Training FLOPs Comparison:**
+The provided context states that the Transformer achieves its results at a ""fraction of the training cost"" and ""less than 1/4 the training cost of the previous state-of-the-art model."" Specific numerical training costs (FLOPs) provided for prior models in Table 2 include:
+* Deep-Att + PosUnk: $1.0 \cdot 10^{20}$ (EN-FR)
+* GNMT + RL: $2.3 \cdot 10^{19}$ (EN-DE), $1.4 \cdot 10^{20}$ (EN-FR)
+* ConvS2S: $9.6 \cdot 10^{18}$ (EN-DE), $1.5 \cdot 10^{20}$ (EN-FR)
+* MoE: $2.0 \cdot 10^{19}$ (EN-DE), $1.2 \cdot 10^{20}$ (EN-FR)
+* Deep-Att + PosUnk Ensemble: $8.0 \cdot 10^{20}$ (EN-FR)
+* GNMT + RL Ensemble: $1.8 \cdot 10^{20}$ (EN-DE), $1.1 \cdot 10^{21}$ (EN-FR)",3,paper2,"Attention Is All You Need (Vaswani et al., 2017)",Deep Learning Architecture & Neural Machine Translation
