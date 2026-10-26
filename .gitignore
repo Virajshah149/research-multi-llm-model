@@ -1,37 +1,36 @@
-# Environment & secrets
+# Environment & secrets — never commit real API keys
 .env
-.env.*
 !.env.example
 
 # Python cache
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
 
 # Virtual environment
 .venv/
 venv/
 
-# Source PDFs (copyrighted research papers)
-paper1.pdf
-paper2.pdf
-example-closely related research paper.pdf
-
-# Checkpoints (large binary data)
+# Benchmark checkpoints (large intermediate data)
 checkpoints/
 
-# Old/duplicate report files
-PD_RAG_Research_Project_Handoff.docx
-PD_RAG_Research_Project_Handoff.md
-IEEE_Research_Paper.tex
-IEEE_Research_Paper.md
+# Reference/example PDFs not part of the project
+"example-closely related research paper.pdf"
+
+# Research paper drafts and Word documents — not for public repo
+Research_Paper_Single_Column.md
+Research_Paper_Single_Column.docx
+Research_Paper_Single_Column_Updated.docx
 Final_Research_Paper.md
 Research_Paper_Comprehensive_Report.md
-Research_Paper_Single_Column_Updated.docx
+IEEE_Research_Paper.md
+IEEE_Research_Paper.tex
+PD_RAG_Research_Project_Handoff.md
+PD_RAG_Research_Project_Handoff.docx
+convert_md_to_docx.py
 generate_docx.py
 
-# Duplicate audit trail files (keep only cross_document)
+# Duplicate/intermediate result files
 results/benchmark_audit_trail.csv
 results/benchmark_audit_trail_latest.csv
 results/benchmark_audit_trail_paper1.csv
