@@ -1,11 +1,41 @@
-
-.env
-
+# Environment & secrets
 .env
 .env.*
 !.env.example
-__pycache__/
-*.pyc
 
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+
+# Source PDFs (copyrighted research papers)
+paper1.pdf
+paper2.pdf
+example-closely related research paper.pdf
+
+# Checkpoints (large binary data)
+checkpoints/
+
+# Old/duplicate report files
+PD_RAG_Research_Project_Handoff.docx
+PD_RAG_Research_Project_Handoff.md
+IEEE_Research_Paper.tex
+IEEE_Research_Paper.md
+Final_Research_Paper.md
+Research_Paper_Comprehensive_Report.md
+Research_Paper_Single_Column_Updated.docx
+generate_docx.py
+
+# Duplicate audit trail files (keep only cross_document)
+results/benchmark_audit_trail.csv
+results/benchmark_audit_trail_latest.csv
+results/benchmark_audit_trail_paper1.csv
+results/benchmark_comparison.png
+results/benchmark_comparison_paper1.png
+results/benchmark_summary.md
+results/benchmark_summary_paper1.md
